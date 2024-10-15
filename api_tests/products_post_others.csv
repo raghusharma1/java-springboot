@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^Apple^|^Fruit rich in vitamins^|^20^|^200^|^Scenario1
+2^|^Banana^|^High energy fruit^|^15^|^200^|^Scenario2
+3^|^Orange^|^Citrus fruit^|^18^|^200^|^Scenario3
+4^|^Pear^|^Sweet and juicy fruit^|^16^|^200^|^Scenario4
+5^|^Peach^|^Soft and juicy fruit^|^17^|^200^|^Scenario5
+6^|^Mango^|^Tropical fruit^|^25^|^200^|^Scenario6
+7^|^Grape^|^Small and sweet fruit^|^30^|^200^|^Scenario7
+8^|^Pineapple^|^Tropical fruit with spiky skin^|^40^|^200^|^Scenario8
+9^|^Strawberry^|^Red and sweet fruit^|^35^|^200^|^Scenario9
+10^|^Blueberry^|^Small and sweet fruit^|^45^|^200^|^Scenario10
