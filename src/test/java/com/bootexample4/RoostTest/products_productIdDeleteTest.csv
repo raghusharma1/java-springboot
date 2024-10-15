@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+1001^|^{\"name\":\"ProductA\",\"description\":\"An advanced widget for all your needs\",\"price\":150.5,\"availability\":true}^|^200
+1002^|^{\"name\":\"ProductB\",\"description\":\"High performance gadget\",\"price\":99.99,\"availability\":true}^|^200
+1003^|^{\"name\":\"ProductC\",\"description\":\"Economical and reliable\",\"price\":75.0,\"availability\":false}^|^404
+1004^|^{\"name\":\"ProductD\",\"description\":\"Luxury item with premium features\",\"price\":299.99,\"availability\":true}^|^200
+1005^|^{\"name\":\"ProductE\",\"description\":\"Compact and efficient\",\"price\":125.0,\"availability\":true}^|^200
+1006^|^{\"name\":\"ProductF\",\"description\":\"Robust and durable\",\"price\":89.95,\"availability\":false}^|^404
+1007^|^{\"name\":\"ProductG\",\"description\":\"Stylish modern design\",\"price\":210.0,\"availability\":true}^|^200
+1008^|^{\"name\":\"ProductH\",\"description\":\"User-friendly and versatile\",\"price\":50.0,\"availability\":true}^|^200
+1009^|^{\"name\":\"ProductI\",\"description\":\"Affordable quality\",\"price\":67.5,\"availability\":false}^|^404
+1010^|^{\"name\":\"ProductJ\",\"description\":\"Exceptional performance\",\"price\":350.0,\"availability\":true}^|^200

@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+10234^|^{id: 5601, name: 'ProductA', description: 'A premium quality product', price: 299}^|^200
+10235^|^{id: 5602, name: 'ProductB', description: 'Budget-friendly option', price: 159}^|^404
+10236^|^{id: 5603, name: 'ProductC', description: 'Luxury high-end product', price: 499}^|^200
+10237^|^{id: 5604, name: 'ProductD', description: 'Eco-friendly material', price: 259}^|^200
+10238^|^{id: 5605, name: 'ProductE', description: 'Compact and efficient', price: 189}^|^404
+10239^|^{id: 5606, name: 'ProductF', description: 'Bestseller in category', price: 320}^|^200
+10240^|^{id: 5607, name: 'ProductG', description: 'Lightweight and durable', price: 210}^|^200
+10241^|^{id: 5608, name: 'ProductH', description: 'Offers high compatibility', price: 330}^|^404
+10242^|^{id: 5609, name: 'ProductI', description: 'User-friendly interface', price: 299}^|^200
+10243^|^{id: 5610, name: 'ProductJ', description: 'Advanced features', price: 415}^|^200
