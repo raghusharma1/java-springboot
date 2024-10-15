@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^Apple^|^Fruit from apple tree^|^100^|^200^|^Scenario1
+2^|^Orange^|^Citrus fruit^|^80^|^404^|^Scenario2
+3^|^Banana^|^Tropical fruit^|^50^|^500^|^Scenario3
+4^|^^|^Green vegetable^|^30^|^200^|^Scenario4
+5^|^Tomato^|^Red vegetable^|^20^|^404^|^Scenario5
+6^|^Cucumber^|^Green vegetable^|^15^|^^|^Scenario6
+7^|^^|^Leafy green vegetable^|^10^|^500^|^Scenario7
+8^|^Watermelon^|^Large fruit^|^^|^200^|^Scenario8
+9^|^Pineapple^|^Tropical fruit^|^60^|^404^|^Scenario9
+10^|^Grapes^|^Small round fruit^|^40^|^500^|^Scenario10
