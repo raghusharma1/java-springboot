@@ -1,0 +1,11 @@
+name^|^id^|^description^|^price^|^statusCode^|^scenario
+apple^|^10^|^description of the product^|^20^|^200^|^1
+banana^|^11^|^yellow and sweet fruit^|^15^|^200^|^2
+cherry^|^12^|^small and red fruit^|^30^|^200^|^3
+date^|^13^|^sweet and chewy fruit^|^25^|^200^|^4
+elderberry^|^14^|^small blackish-purple fruit^|^35^|^200^|^5
+fig^|^15^|^sweet and soft fruit^|^20^|^200^|^6
+grape^|^16^|^small round fruit^|^15^|^200^|^7
+honeydew^|^17^|^sweet and juicy melon^|^40^|^200^|^8
+iceberg lettuce^|^18^|^crisp and watery vegetable^|^10^|^200^|^9
+jackfruit^|^19^|^large and sweet fruit^|^50^|^200^|^10
