@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^Apple^|^Fruit of the apple tree^|^20^|^200^|^Scenario1
+2^|^Banana^|^Long curved fruit^|^15^|^200^|^Scenario2
+3^|^Pear^|^Sweet juicy fruit^|^18^|^200^|^Scenario3
+4^|^Orange^|^Citrus fruit^|^16^|^200^|^Scenario4
+5^|^Peach^|^Soft round stone fruit^|^19^|^200^|^Scenario5
+6^|^Plum^|^Fruit with sweet flesh and thick skin^|^17^|^200^|^Scenario6
+7^|^Kiwi^|^Brown hairy fruit^|^21^|^200^|^Scenario7
+8^|^Pineapple^|^Tropical fruit with spiky skin^|^25^|^200^|^Scenario8
+9^|^Mango^|^Tropical fruit with sweet yellow flesh^|^23^|^200^|^Scenario9
+10^|^Blueberry^|^Small round fruit^|^22^|^200^|^Scenario10
