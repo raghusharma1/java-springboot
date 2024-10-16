@@ -1,0 +1,11 @@
+productId,name,id,description,price,statusCode,scenario
+1,"apple",10,"description of the product",20,200,"Updated Product"
+2,"banana",11,"fresh and yellow banana",15,200,"Updated Product"
+3,"orange",12,"juicy sweet orange",10,200,"Updated Product"
+4,"grape",13,"bunch of grapes",5,200,"Updated Product"
+5,"mango",14,"seasonal fruit",8,200,"Updated Product"
+6,"invalid_name",-1,"invalid_description",-10,404,"Not Found"
+7,"not_found",0,"no description",0,404,"Not Found"
+8,"error_item",999,"error in description",999,404,"Not Found"
+9,"missing_product",123,"missing product details",123,404,"Not Found"
+10,"faulty",321,"faulty description here",321,404,"Not Found"
