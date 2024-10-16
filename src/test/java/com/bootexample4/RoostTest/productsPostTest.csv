@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id":1,"name":"WidgetA","description":"A top-notch widget for all purposes","price":150}^|^200
+{"id":2,"name":"GadgetB","description":"Compact and efficient gadget","price":299}^|^405
+{"id":3,"name":"DeviceC","description":"High performance device for professional use","price":499}^|^200
+{"id":4,"name":"ToolD","description":"Essential tool for every household","price":89}^|^200
+{"id":5,"name":"ApplianceE","description":"Energy-saving appliance for modern homes","price":250}^|^405
+{"id":6,"name":"MachineF","description":"Heavy-duty machine for industrial use","price":800}^|^200
+{"id":7,"name":"EquipmentG","description":"State-of-the-art equipment","price":1200}^|^200
+{"id":8,"name":"ItemH","description":"The most versatile item on the market","price":75}^|^405
+{"id":9,"name":"ProductI","description":"Innovative product for the tech-savvy","price":360}^|^200
+{"id":10,"name":"SupplyJ","description":"Reliable and affordable supply","price":45}^|^405
