@@ -1,0 +1,11 @@
+id^|^name^|^statusCode^|^scenario
+1^|^John Doe^|^200^|^Login
+2^|^Jane Doe^|^404^|^Logout
+3^|^Robert Smith^|^500^|^Signup
+4^|^Emma Johnson^|^200^|^Password Reset
+5^|^Michael Brown^|^400^|^Account Deletion
+6^|^Emily Davis^|^404^|^Password Change
+7^|^Daniel Wilson^|^500^|^Email Verification
+8^|^Sarah Miller^|^200^|^Login Attempt
+9^|^David Jones^|^400^|^Account Activation
+10^|^Jessica Taylor^|^404^|^Password Recovery
