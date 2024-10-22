@@ -1,0 +1,11 @@
+name,id,description,price,statusCode,scenario
+"apple",10,"description of the product",20,200,"Successful operation"
+"orange",11,"fresh and juicy orange",15,200,"Successful operation"
+"banana",12,"rich in potassium",10,200,"Successful operation"
+"grape",13,"sweet and vine-grown",18,200,"Successful operation"
+"strawberry",14,"bright red, juicy",25,200,"Successful operation"
+"apple-123",-5,"description with invalid data",0,405,"Invalid input"
+"orange-xyz",101,"invalid input for description",3000,405,"Invalid input"
+"banana-abc",9999,"@",500,405,"Invalid input"
+"grape-def",0,"12345",1000,405,"Invalid input"
+"strawberry-ghi",12345,"example with error",20,405,"Invalid input"
