@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id":1,"name":"Widget A","description":"High quality widget","price":100}^|^200
+{"id":2,"name":"Widget B","description":"Advanced gadget","price":150}^|^200
+{"id":3,"name":"Widget C","description":"Basic version","price":50}^|^200
+{"id":4,"name":"Widget D","description":"Improved efficiency","price":125}^|^200
+{"id":5,"name":"Widget E","description":"Latest technology","price":175}^|^200
+{"id":6,"name":"Widget F","description":"Economic model","price":75}^|^405
+{"id":7,"name":"Widget G","description":"Durable and reliable","price":90}^|^200
+{"id":8,"name":"Widget H","description":"Compact design","price":110}^|^405
+{"id":9,"name":"Widget I","description":"Lightweight","price":80}^|^200
+{"id":10,"name":"Widget J","description":"Maximum output","price":200}^|^405
