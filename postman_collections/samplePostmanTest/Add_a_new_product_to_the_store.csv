@@ -1,0 +1,6 @@
+name,id,description,price,statusCode,scenario
+"apple",10^|"description of the product",20,200,Successful operation
+"apple",10^|"description of the product",20,405,Invalid input
+"banana",-5^|"fruit with high potassium",15,405,Invalid input
+"orange",30^|"citrus fruit",0,405,Invalid input
+"grape",40^|"small and sweet",negative 10,405,Invalid input
