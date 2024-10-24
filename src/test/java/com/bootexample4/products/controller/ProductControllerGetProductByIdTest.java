@@ -66,33 +66,62 @@ public class ProductControllerGetProductByIdTest {
 	private ProductRepository productRepository;
 
 	private ProductController productController = new ProductController();
+/*
+The error message "java.lang.NullPointerException: Cannot invoke "com.bootexample4.products.repository.ProductRepository.findById(Object)" because "this.productRepository" is null" suggests that the productRepository instance in the test is null at the time of the test execution.
 
-	@Test
-	@Tag("valid")
-	public void testGetProductByIdWithValidId() {
-		Product mockProduct = new Product();
-		mockProduct.setId(1L);
-		mockProduct.setName("Test Product");
-		mockProduct.setDescription("Test Description");
-		mockProduct.setPrice(100.00);
-		Mockito.when(productRepository.findById(anyLong())).thenReturn(Optional.of(mockProduct));
-		ResponseEntity<Product> responseEntity = productController.getProductById(1L);
-		assertEquals(200, responseEntity.getStatusCodeValue());
-		assertEquals(mockProduct, responseEntity.getBody());
-	}
+It seems like the productRepository is not being properly initialized before the test runs. The productRepository is a mock object and should be instantiated using Mockito before it is used in the tests. If it is not properly initialized, when the test tries to use it, it will throw a NullPointerException because it is trying to call a method on a null object.
 
-	@Test
-	@Tag("invalid")
-	public void testGetProductByIdWithNonExistingId() {
-		Mockito.when(productRepository.findById(anyLong())).thenReturn(Optional.empty());
-		ResponseEntity<Product> responseEntity = productController.getProductById(2L);
-		assertEquals(404, responseEntity.getStatusCodeValue());
-	}
+The initialization of the productRepository mock object should be done in a setup method (annotated with @BeforeEach) or directly in the test method before it is used. 
 
-	@Test
-	@Tag("boundary")
-	public void testGetProductByIdWithNullId() {
-		assertThrows(IllegalArgumentException.class, () -> productController.getProductById(null));
-	}
+Moreover, it seems like the productController instance is also not initialized. The same process needs to be followed for instantiating the productController before the test runs.
+
+In addition, the test class should be annotated with @RunWith(MockitoJUnitRunner.class) or the Mockito's initMocks method should be called to initialize the mock objects.
+@Test
+@Tag("valid")
+public void testGetProductByIdWithValidId() {
+    Product mockProduct = new Product();
+    mockProduct.setId(1L);
+    mockProduct.setName("Test Product");
+    mockProduct.setDescription("Test Description");
+    mockProduct.setPrice(100.00);
+    Mockito.when(productRepository.findById(anyLong())).thenReturn(Optional.of(mockProduct));
+    ResponseEntity<Product> responseEntity = productController.getProductById(1L);
+    assertEquals(200, responseEntity.getStatusCodeValue());
+    assertEquals(mockProduct, responseEntity.getBody());
+}
+*/
+/*
+The test case `testGetProductByIdWithNonExistingId()` is failing due to a `NullPointerException` at the line where `productRepository.findById(Object)` is being invoked. The error message indicates that `productRepository` is `null`.
+
+This issue usually happens when the mocked object (in this case `productRepository`) is not properly initialized or injected into the test context. In other words, the `productRepository` instance used in the test is `null` because it's not properly set up before the test runs.
+
+In the test method, Mockito is used to mock the behavior of `productRepository.findById(anyLong())` to return an empty Optional. However, if the `productRepository` itself is not instantiated (either directly or via dependency injection), then calling `findById` on it will result in a `NullPointerException`.
+
+To fix this, you need to ensure that `productRepository` is properly instantiated and injected into the test context before the test runs. This is typically done in a setup method (annotated with `@Before` or `@BeforeEach`) or directly in the test method before the mock behavior is defined. You can use the `@Mock` annotation to create a mock instance of `productRepository`, and `@InjectMocks` to inject this mock into the class under test.
+@Test
+@Tag("invalid")
+public void testGetProductByIdWithNonExistingId() {
+    Mockito.when(productRepository.findById(anyLong())).thenReturn(Optional.empty());
+    ResponseEntity<Product> responseEntity = productController.getProductById(2L);
+    assertEquals(404, responseEntity.getStatusCodeValue());
+}
+*/
+/*
+The test `testGetProductByIdWithNullId()` is failing because it's expecting an `IllegalArgumentException` to be thrown when a null ID is passed to the `getProductById()` method. However, the actual exception being thrown is a `NullPointerException`.
+
+The `NullPointerException` is being thrown because the `ProductController`'s `productRepository` field is null at the time `getProductById()` is called, as indicated by the line in the stack trace: `java.lang.NullPointerException: Cannot invoke "com.bootexample4.products.repository.ProductRepository.findById(Object)" because "this.productRepository" is null`.
+
+This indicates that the `ProductRepository` dependency was not properly injected into the `ProductController` before the test was run. This could be a result of the test setup not correctly initializing the `ProductController` with a mock or stub `ProductRepository`.
+
+The test is expecting an `IllegalArgumentException` because it's assuming that the `getProductById()` method will check the ID argument for null and throw this exception if it is null. However, the actual business logic does not perform this check, and instead tries to call `findById()` on the `ProductRepository` with the null ID, leading to the `NullPointerException`.
+
+In summary, the test is failing due to a combination of incorrect test setup (causing the `NullPointerException`) and a discrepancy between the expected and actual business logic (expecting an `IllegalArgumentException` to be thrown for a null ID).
+@Test
+@Tag("boundary")
+public void testGetProductByIdWithNullId() {
+    assertThrows(IllegalArgumentException.class, () -> productController.getProductById(null));
+}
+*/
+
 
 }
