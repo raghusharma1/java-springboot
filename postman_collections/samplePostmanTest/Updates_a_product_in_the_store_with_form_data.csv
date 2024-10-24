@@ -1,0 +1,11 @@
+productId,name,id,description,price,statusCode,scenario
+1001,"apple",10,"description of the product",20,200,"Updated Product"
+1002,"banana",11,"fresh banana fruit",25,200,"Updated Product"
+1003,"orange",12,"sweet orange fruit",15,200,"Updated Product"
+1004,"grape",13,"bunch of grapes",18,200,"Updated Product"
+1005,"mango",14,"ripe mangoes",22,200,"Updated Product"
+1006,"pineapple",15,"tropical pineapple",30,404,"Not Found"
+1007,"kiwi",16,"green kiwi fruit",12,404,"Not Found"
+1008,"strawberry",17,"fresh strawberries",28,404,"Not Found"
+1009,"blueberry",18,"wild blueberries",35,404,"Not Found"
+1010,"raspberry",19,"organic raspberries",21,404,"Not Found"
