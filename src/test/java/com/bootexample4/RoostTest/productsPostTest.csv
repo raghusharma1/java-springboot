@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id":1,"name":"Widget A","description":"A basic widget","price":100}^|^200
+{"id":2,"name":"Widget B","description":"A standard widget","price":150}^|^200
+{"id":3,"name":"Widget C","description":"A premium widget","price":200}^|^405
+{"id":4,"name":"Widget D","description":"A luxury widget","price":250}^|^200
+{"id":5,"name":"Widget E","description":"An advanced widget","price":300}^|^405
+{"id":6,"name":"Widget F","description":"An elite widget","price":350}^|^200
+{"id":7,"name":"Widget G","description":"A beginner's widget","price":80}^|^405
+{"id":8,"name":"Widget H","description":"An intermediate widget","price":120}^|^200
+{"id":9,"name":"Widget I","description":"An expert widget","price":400}^|^405
+{"id":10,"name":"Widget J","description":"A novice widget","price":90}^|^200
