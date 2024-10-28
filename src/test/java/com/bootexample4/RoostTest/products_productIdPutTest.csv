@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+1^|^{id:101,name:Alpha,description:First product,price:150}^|^200
+2^|^{id:102,name:Bravo,description:Second product,price:250}^|^404
+3^|^{id:103,name:Charlie,description:Third product,price:350}^|^200
+4^|^{id:104,name:Delta,description:Fourth product,price:450}^|^404
+5^|^{id:105,name:Echo,description:Fifth product,price:550}^|^200
+6^|^{id:106,name:Foxtrot,description:Sixth product,price:650}^|^404
+7^|^{id:107,name:Golf,description:Seventh product,price:750}^|^200
+8^|^{id:108,name:Hotel,description:Eighth product,price:850}^|^404
+9^|^{id:109,name:India,description:Ninth product,price:950}^|^200
+10^|^{id:110,name:Juliet,description:Tenth product,price:1050}^|^404
