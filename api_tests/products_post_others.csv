@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^Apple^|^Fruit from apple tree^|^100^|^200^|^Scenario1
+2^|^Banana^|^Tropical fruit^|^50^|^200^|^Scenario2
+3^|^Orange^|^Citrus fruit^|^70^|^200^|^Scenario3
+4^|^Mango^|^King of fruits^|^150^|^200^|^Scenario4
+5^|^Pineapple^|^Tropical plant with edible fruit^|^120^|^200^|^Scenario5
+6^|^^|^^|^404^|^Scenario6
+7^|^Kiwi^|^Edible berry^|^80^|^200^|^Scenario7
+8^|^Guava^|^Tropical fruit^|^90^|^200^|^Scenario8
+9^|^Papaya^|^Tropical fruit^|^110^|^200^|^Scenario9
+10^|^Blueberry^|^Perennial flowering plants with blue– or purple–colored berries^|^130^|^200^|^Scenario10
