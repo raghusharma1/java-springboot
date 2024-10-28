@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^Apple^|^Fruit from apple tree^|^100^|^200^|^Scenario1
+2^|^Banana^|^Tropical fruit^|^50^|^200^|^Scenario2
+3^|^Orange^|^Citrus fruit^|^80^|^200^|^Scenario3
+4^|^^|^Exotic fruit^|^150^|^200^|^Scenario4
+5^|^Kiwi^|^Fruit from New Zealand^|^^|^200^|^Scenario5
+6^|^Mango^|^King of fruits^|^200^|^200^|^Scenario6
+7^|^Guava^|^Tropical fruit^|^70^|^200^|^Scenario7
+8^|^Pineapple^|^Tropical fruit with spiky skin^|^120^|^500^|^Scenario8
+9^|^Pear^|^Sweet and juicy fruit^|^90^|^200^|^Scenario9
+10^|^Watermelon^|^Large fruit with green skin^|^300^|^500^|^Scenario10
