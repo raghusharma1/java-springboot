@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id":1,"name":"WidgetA","description":"A basic widget","price":100}^|^200
+{"id":2,"name":"WidgetB","description":"Advanced widget","price":150}^|^200
+{"id":3,"name":"GadgetA","description":"Basic gadget","price":200}^|^200
+{"id":4,"name":"GadgetB","description":"Advanced gadget","price":300}^|^200
+{"id":5,"name":"ToolA","description":"Basic tool","price":120}^|^200
+{"id":6,"name":"ToolB","description":"Advanced tool","price":220}^|^200
+{"id":7,"name":"DeviceA","description":"Basic device","price":180}^|^200
+{"id":8,"name":"DeviceB","description":"Advanced device","price":280}^|^200
+{"id":9,"name":"ApplianceA","description":"Basic appliance","price":150}^|^200
+{"id":10,"name":"ApplianceB","description":"Advanced appliance","price":250}^|^200
