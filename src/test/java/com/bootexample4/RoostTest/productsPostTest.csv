@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id":1,"name":"WidgetA","description":"A top-notch widget for all purposes","price":150}^|^200
+{"id":2,"name":"GadgetB","description":"Compact and efficient gadget","price":299}^|^405
+{"id":3,"name":"DeviceC","description":"High performance device","price":429}^|^200
+{"id":4,"name":"ToolD","description":"Essential tool for your toolkit","price":89}^|^405
+{"id":5,"name":"EquipmentE","description":"Durable and reliable equipment","price":675}^|^200
+{"id":6,"name":"InstrumentF","description":"Precision instrument for specialists","price":340}^|^200
+{"id":7,"name":"ApparatusG","description":"Advanced apparatus for modern needs","price":215}^|^405
+{"id":8,"name":"MachineH","description":"Robust and versatile machine","price":850}^|^200
+{"id":9,"name":"AccessoryI","description":"Essential accessory for convenience","price":45}^|^405
+{"id":10,"name":"UnitJ","description":"Unit with unmatched performance","price":999}^|^200
