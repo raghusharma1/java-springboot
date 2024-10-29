@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"userId":1,"action":"login"}^|^200
+{"userId":2,"action":"logout"}^|^200
+{"userId":3,"action":"update","details":{"field":"email","value":"user3@example.com"}}^|^200
+{"userId":4,"action":"view","section":"profile"}^|^200
+{"userId":5,"action":"delete","target":"message","messageId":34}^|^200
+{"userId":6,"action":"create","type":"post","content":"Hello World!"}^|^200
+{"userId":7,"action":"modify","settings":{"theme":"dark"}}^|^200
+{"userId":8,"action":"login"}^|^200
+{"userId":9,"action":"register","details":{"username":"newuser9","password":"pass1234"}}^|^200
+{"userId":10,"action":"search","query":"How to make a pie?"}^|^200
