@@ -1,0 +1,11 @@
+productId^|^statusCode^|^scenario
+123^|^200^|^Login
+456^|^404^|^Logout
+789^|^500^|^Registration
+101^|^200^|^Password Reset
+112^|^400^|^Update Profile
+131^|^200^|^Delete Account
+141^|^300^|^Create Post
+151^|^200^|^Edit Post
+161^|^400^|^Delete Post
+171^|^500^|^Like Post
