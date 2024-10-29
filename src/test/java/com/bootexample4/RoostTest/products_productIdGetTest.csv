@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+1001^|^{\"name\":\"ProductA\",\"description\":\"An innovative product\"}^|^200
+1002^|^{\"name\":\"ProductB\",\"description\":\"A revolutionary new design\"}^|^404
+1003^|^{\"name\":\"ProductC\",\"description\":\"High performance\"}^|^200
+1004^|^{\"name\":\"ProductD\",\"description\":\"Eco friendly material\"}^|^404
+1005^|^{\"name\":\"ProductE\",\"description\":\"Compact and portable\"}^|^200
+1006^|^{\"name\":\"ProductF\",\"description\":\"User-friendly interface\"}^|^404
+1007^|^{\"name\":\"ProductG\",\"description\":\"Affordable price\"}^|^200
+1008^|^{\"name\":\"ProductH\",\"description\":\"Robust and durable\"}^|^404
+1009^|^{\"name\":\"ProductI\",\"description\":\"Stylish modern look\"}^|^200
+1010^|^{\"name\":\"ProductJ\",\"description\":\"Top of the line specs\"}^|^404
