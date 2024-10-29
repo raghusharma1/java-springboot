@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+1001^|^{id:2001,name:Alpha,description:First product,price:150}^|^200
+1002^|^{id:2002,name:Beta,description:Second product,price:250}^|^404
+1003^|^{id:2003,name:Gamma,description:Third product,price:350}^|^200
+1004^|^{id:2004,name:Delta,description:Fourth product,price:450}^|^404
+1005^|^{id:2005,name:Epsilon,description:Fifth product,price:550}^|^200
+1006^|^{id:2006,name:Zeta,description:Sixth product,price:650}^|^404
+1007^|^{id:2007,name:Eta,description:Seventh product,price:750}^|^200
+1008^|^{id:2008,name:Theta,description:Eighth product,price:850}^|^404
+1009^|^{id:2009,name:Iota,description:Ninth product,price:950}^|^200
+1010^|^{id:2010,name:Kappa,description:Tenth product,price:1050}^|^404
