@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id":1,"name":"WidgetA","description":"A top-notch widget for all purposes","price":100}^|^200
+{"id":2,"name":"WidgetB","description":"Compact and efficient","price":150}^|^405
+{"id":3,"name":"WidgetC","description":"Durable and reliable","price":200}^|^200
+{"id":4,"name":"WidgetD","description":"Lightweight and powerful","price":250}^|^405
+{"id":5,"name":"WidgetE","description":"The ultimate tool for professionals","price":300}^|^200
+{"id":6,"name":"WidgetF","description":"Budget-friendly without compromise","price":350}^|^405
+{"id":7,"name":"WidgetG","description":"Advanced technology for peak performance","price":400}^|^200
+{"id":8,"name":"WidgetH","description":"Ergonomic and user-friendly","price":450}^|^405
+{"id":9,"name":"WidgetI","description":"Sleek design with exceptional quality","price":500}^|^200
+{"id":10,"name":"WidgetJ","description":"Built to last and excel","price":550}^|^405
