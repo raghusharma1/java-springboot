@@ -1,0 +1,11 @@
+productId^|^statusCode^|^scenario
+123^|^200^|^Login
+456^|^404^|^Logout
+789^|^500^|^Registration
+101112^|^200^|^ProfileUpdate
+131415^|^403^|^PasswordReset
+161718^|^200^|^Login
+192021^|^404^|^Logout
+222324^|^500^|^Registration
+252627^|^200^|^ProfileUpdate
+282930^|^403^|^PasswordReset
