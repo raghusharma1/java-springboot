@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id":1,"name":"WidgetA","description":"High quality widget","price":100}^|^200
+{"id":2,"name":"WidgetB","description":"Eco friendly widget","price":150}^|^200
+{"id":3,"name":"WidgetC","description":"Budget friendly widget","price":50}^|^200
+{"id":4,"name":"WidgetD","description":"Luxury high performance widget","price":300}^|^405
+{"id":5,"name":"WidgetE","description":"Compact size widget","price":75}^|^200
+{"id":6,"name":"WidgetF","description":"Child safe widget","price":120}^|^200
+{"id":7,"name":"WidgetG","description":"Outdoor widget","price":180}^|^405
+{"id":8,"name":"WidgetH","description":"All weather widget","price":200}^|^200
+{"id":9,"name":"WidgetI","description":"Multi-purpose widget","price":90}^|^200
+{"id":10,"name":"WidgetJ","description":"Office widget","price":110}^|^200
