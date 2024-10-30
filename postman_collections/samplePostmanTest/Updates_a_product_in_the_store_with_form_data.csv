@@ -1,0 +1,5 @@
+productId,name,id,description,price,statusCode,scenario
+1001,"apple",10,"description of the product",20,200,"Updated Product"
+1002,"apple",10,"description of the product",20,200,"Updated Product"
+1003,"banana",11,"invalid description data",30,404,"Not Found"
+1004,"banana",11,"invalid description data",30,404,"Not Found"
