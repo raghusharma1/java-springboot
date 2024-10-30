@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"userId":1,"action":"login"}^|^200
+{"userId":2,"action":"view","item":"product123"}^|^200
+{"userId":3,"action":"purchase","item":"product234"}^|^200
+{"userId":4,"action":"logout"}^|^200
+{"userId":5,"action":"login"}^|^200
+{"userId":6,"action":"update","details":"address change"}^|^200
+{"userId":7,"action":"login"}^|^200
+{"userId":8,"action":"delete","item":"product345"}^|^200
+{"userId":9,"action":"login"}^|^200
+{"userId":10,"action":"view","item":"product456"}^|^200
