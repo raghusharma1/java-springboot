@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+123456789^|^{\"key\":\"value\",\"number\":1}^|^200
+987654321^|^{\"key\":\"value\",\"number\":2}^|^404
+234567890^|^{\"key\":\"value\",\"number\":3}^|^200
+876543219^|^{\"key\":\"value\",\"number\":4}^|^404
+345678901^|^{\"key\":\"value\",\"number\":5}^|^200
+765432198^|^{\"key\":\"value\",\"number\":6}^|^404
+456789012^|^{\"key\":\"value\",\"number\":7}^|^200
+654321987^|^{\"key\":\"value\",\"number\":8}^|^404
+567890123^|^{\"key\":\"value\",\"number\":9}^|^200
+543219876^|^{\"key\":\"value\",\"number\":10}^|^404
