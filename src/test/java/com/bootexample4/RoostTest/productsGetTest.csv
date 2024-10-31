@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"userId":1,"action":"login"}^|^200
+{"userId":2,"action":"logout"}^|^200
+{"userId":3,"action":"update_profile"}^|^200
+{"userId":4,"action":"view_profile"}^|^200
+{"userId":5,"action":"change_password"}^|^200
+{"userId":6,"action":"delete_account"}^|^200
+{"userId":7,"action":"create_post"}^|^200
+{"userId":8,"action":"edit_post"}^|^200
+{"userId":9,"action":"delete_post"}^|^200
+{"userId":10,"action":"share_post"}^|^200
