@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id":1,"name":"Widget A","description":"High quality widget","price":100}^|^200
+{"id":2,"name":"Widget B","description":"Budget-friendly widget","price":50}^|^200
+{"id":3,"name":"Gadget C","description":"Latest tech gadget","price":150}^|^200
+{"id":4,"name":"Tool D","description":"Essential tool","price":75}^|^200
+{"id":5,"name":"Item E","description":"Specialty item","price":200}^|^200
+{"id":6,"name":"Product F","description":"Popular product","price":120}^|^200
+{"id":7,"name":"Device G","description":"Electronic device","price":300}^|^405
+{"id":8,"name":"Equipment H","description":"Heavy duty equipment","price":400}^|^405
+{"id":9,"name":"Machine I","description":"Industrial machine","price":500}^|^405
+{"id":10,"name":"Appliance J","description":"Home appliance","price":250}^|^405
