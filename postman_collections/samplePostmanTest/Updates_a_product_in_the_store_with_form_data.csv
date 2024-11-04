@@ -1,0 +1,9 @@
+productId,name,id,description,price,statusCode,scenario
+1001,"apple",10,"description of the product",20,200,"Updated Product"
+1002,"banana",11,"fresh yellow banana",15,200,"Updated Product"
+1003,"orange",12,"sweet and juicy orange",10,200,"Updated Product"
+1004,"grape",13,"small and sweet grapes",5,200,"Updated Product"
+1005,"xgfhf",-10,"invalid description",-5,404,"Not Found"
+1006,"fdghd",-11,"error product info",-10,404,"Not Found"
+1007,"rtyrt",-12,"wrong data set",-15,404,"Not Found"
+1008,"cvbcvb",-13,"incorrect details",-20,404,"Not Found"
