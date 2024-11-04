@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{id:1,name:Alpha,description:First product,price:100}^|^200
+{id:2,name:Beta,description:Second product,price:200}^|^200
+{id:3,name:Gamma,description:Third product,price:300}^|^405
+{id:4,name:Delta,description:Fourth product,price:400}^|^200
+{id:5,name:Epsilon,description:Fifth product,price:500}^|^405
+{id:6,name:Zeta,description:Sixth product,price:600}^|^200
+{id:7,name:Eta,description:Seventh product,price:700}^|^405
+{id:8,name:Theta,description:Eighth product,price:800}^|^200
+{id:9,name:Iota,description:Ninth product,price:900}^|^405
+{id:10,name:Kappa,description:Tenth product,price:1000}^|^200
