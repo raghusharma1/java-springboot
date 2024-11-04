@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^Apple^|^Fruit from apple tree^|^100^|^200^|^Scenario1
+2^|^Banana^|^Fruit from banana tree^|^50^|^200^|^Scenario2
+3^|^Carrot^|^Vegetable from ground^|^30^|^200^|^Scenario3
+4^|^Dog^|^Pet animal^|^500^|^200^|^Scenario4
+5^|^Elephant^|^Wild animal^|^50000^|^200^|^Scenario5
+6^|^Fish^|^Aquatic animal^|^200^|^200^|^Scenario6
+7^|^Grapes^|^Fruit from grapevine^|^70^|^200^|^Scenario7
+8^|^Horse^|^Pet animal^|^1000^|^200^|^Scenario8
+9^|^Ice Cream^|^Dessert^|^20^|^200^|^Scenario9
+10^|^Juice^|^Drink^|^10^|^200^|^Scenario10
