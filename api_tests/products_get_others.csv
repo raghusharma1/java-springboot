@@ -1,0 +1,11 @@
+id^|^name^|^statusCode^|^scenario
+1^|^John Doe^|^200^|^Login
+2^|^Jane Doe^|^404^|^Logout
+3^|^Robert Smith^|^500^|^Profile Update
+4^|^Laura Johnson^|^200^|^Password Reset
+5^|^James Brown^|^404^|^Signup
+6^|^Patricia Davis^|^500^|^Delete Account
+7^|^Michael Miller^|^200^|^Change Email
+8^|^Linda Wilson^|^404^|^Payment
+9^|^William Moore^|^500^|^Upload Picture
+10^|^Jennifer Taylor^|^200^|^Download File
