@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^Apple^|^Fruit from apple tree^|^100^|^200^|^Scenario1
+2^|^Banana^|^Tropical fruit^|^50^|^200^|^Scenario2
+3^|^Orange^|^Citrus fruit^|^80^|^200^|^Scenario3
+4^|^Mango^|^King of fruits^|^150^|^200^|^Scenario4
+5^|^Pineapple^|^Tropical plant with edible fruit^|^120^|^200^|^Scenario5
+6^|^Watermelon^|^Large fruit with a hard rind^|^200^|^200^|^Scenario6
+7^|^Papaya^|^Tropical fruit^|^90^|^200^|^Scenario7
+8^|^Strawberry^|^Soft fruit with a seed-studded surface^|^300^|^200^|^Scenario8
+9^|^Blueberry^|^Small round fruit^|^250^|^200^|^Scenario9
+10^|^Raspberry^|^Small soft red fruit^|^350^|^200^|^Scenario10
