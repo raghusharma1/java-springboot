@@ -1,0 +1,11 @@
+productId,name,id,description,price,statusCode,scenario
+1,"apple",10,"description of the product",20,200,"Updated Product"
+2,"apple",10,"description of the product",20,200,"Updated Product"
+3,"apple",10,"description of the product",20,200,"Updated Product"
+4,"apple",10,"description of the product",20,200,"Updated Product"
+5,"apple",10,"description of the product",20,200,"Updated Product"
+6,"orange",30,"incorrect product description",50,404,"Not Found"
+7,"banana",40,"wrong description",60,404,"Not Found"
+8,"grape",50,"error in description",70,404,"Not Found"
+9,"cherry",60,"faulty description",80,404,"Not Found"
+10,"melon",70,"invalid product description",90,404,"Not Found"
