@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id":1,"name":"WidgetA","description":"A top-notch widget for your needs","price":120}^|^200
+{"id":2,"name":"GadgetB","description":"Latest model with enhanced features","price":150}^|^405
+{"id":3,"name":"ToolC","description":"Reliable tool for everyday use","price":80}^|^200
+{"id":4,"name":"ItemD","description":"Durable and efficient","price":90}^|^405
+{"id":5,"name":"ProductE","description":"High quality and affordable","price":110}^|^200
+{"id":6,"name":"DeviceF","description":"Compact and powerful","price":200}^|^200
+{"id":7,"name":"EquipmentG","description":"State of the art technology","price":300}^|^405
+{"id":8,"name":"AccessoryH","description":"The perfect addition to your kit","price":45}^|^200
+{"id":9,"name":"MaterialI","description":"Superior material for superior products","price":75}^|^405
+{"id":10,"name":"ApplianceJ","description":"Energy efficient and effective","price":220}^|^200
