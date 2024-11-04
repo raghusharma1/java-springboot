@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id":1,"name":"WidgetAlpha","description":"High performance widget","price":100}^|^200
+{"id":2,"name":"WidgetBeta","description":"Eco friendly widget","price":150}^|^200
+{"id":3,"name":"WidgetGamma","description":"Budget friendly widget","price":75}^|^200
+{"id":4,"name":"WidgetDelta","description":"Luxury high-end widget","price":300}^|^405
+{"id":5,"name":"WidgetEpsilon","description":"Compact size widget","price":90}^|^200
+{"id":6,"name":"WidgetZeta","description":"Lightweight widget","price":110}^|^405
+{"id":7,"name":"WidgetEta","description":"Durable widget","price":130}^|^200
+{"id":8,"name":"WidgetTheta","description":"Widget for all ages","price":120}^|^200
+{"id":9,"name":"WidgetIota","description":"Stylish design widget","price":140}^|^405
+{"id":10,"name":"WidgetKappa","description":"Energy efficient widget","price":160}^|^200
