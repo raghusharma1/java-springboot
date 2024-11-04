@@ -1,0 +1,11 @@
+productId,statusCode,scenario
+10,200,"successful operation"
+15,404,"Product not found"
+23,404,"Product not found"
+37,404,"Product not found"
+45,200,"successful operation"
+53,200,"successful operation"
+60,404,"Product not found"
+72,200,"successful operation"
+85,404,"Product not found"
+91,200,"successful operation"
