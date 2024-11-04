@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^apple^|^description of the product^|^20^|^200^|^Scenario1
+2^|^banana^|^another product description^|^15^|^200^|^Scenario2
+3^|^grape^|^yet another product description^|^25^|^200^|^Scenario3
+4^|^orange^|^description for a different product^|^30^|^200^|^Scenario4
+5^|^pineapple^|^description of a tropical product^|^35^|^200^|^Scenario5
+6^|^kiwi^|^description of a kiwi fruit^|^40^|^200^|^Scenario6
+7^|^mango^|^description of a sweet product^|^45^|^200^|^Scenario7
+8^|^papaya^|^description of a papaya fruit^|^50^|^200^|^Scenario8
+9^|^blueberry^|^description of a berry product^|^55^|^200^|^Scenario9
+10^|^strawberry^|^description of a strawberry fruit^|^60^|^200^|^Scenario10
