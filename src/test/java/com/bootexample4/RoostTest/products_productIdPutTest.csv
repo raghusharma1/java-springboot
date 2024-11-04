@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+1001^|^{id:201,name:'ProductA',description:'A high-quality item',price:150}^|^200
+1002^|^{id:202,name:'ProductB',description:'Elegant and sleek',price:250}^|^200
+1003^|^{id:203,name:'ProductC',description:'Robust and durable',price:190}^|^404
+1004^|^{id:204,name:'ProductD',description:'Compact and efficient',price:300}^|^200
+1005^|^{id:205,name:'ProductE',description:'Lightweight and portable',price:110}^|^200
+1006^|^{id:206,name:'ProductF',description:'Stylish modern design',price:220}^|^404
+1007^|^{id:207,name:'ProductG',description:'User-friendly and versatile',price:130}^|^200
+1008^|^{id:208,name:'ProductH',description:'Economical and practical',price:99}^|^200
+1009^|^{id:209,name:'ProductI',description:'Luxurious and top-quality',price:450}^|^404
+1010^|^{id:210,name:'ProductJ',description:'Reliable with high performance',price:340}^|^200
