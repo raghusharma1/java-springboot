@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id":1,"name":"Widget A","description":"A basic widget","price":15}^|^200
+{"id":2,"name":"Gadget B","description":"A useful gadget","price":45}^|^200
+{"id":3,"name":"Tool C","description":"Handy repair tool","price":23}^|^405
+{"id":4,"name":"Item D","description":"Household item","price":99}^|^200
+{"id":5,"name":"Device E","description":"Electronic device","price":199}^|^405
+{"id":6,"name":"Component F","description":"Essential component","price":75}^|^200
+{"id":7,"name":"Accessory G","description":"Stylish accessory","price":30}^|^200
+{"id":8,"name":"Widget H","description":"Advanced widget","price":50}^|^405
+{"id":9,"name":"Gadget I","description":"Next-gen gadget","price":150}^|^200
+{"id":10,"name":"Tool J","description":"Professional tool","price":88}^|^405
