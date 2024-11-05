@@ -1,0 +1,11 @@
+name,id,description,price,statusCode,scenario
+"apple",10,"description of the product",20,200,"Successful operation"
+"orange",11,"fresh and juicy orange",15,200,"Successful operation"
+"banana",12,"sweet ripe bananas",10,200,"Successful operation"
+"grapes",13,"bunch of green grapes",18,200,"Successful operation"
+"strawberry",14,"fresh strawberries pack",25,200,"Successful operation"
+"apple",10,"description of the product",20,405,"Invalid input"
+"orange",11,"fresh and juicy orange",15,405,"Invalid input"
+"banana",12,"sweet ripe bananas",10,405,"Invalid input"
+"grapes",13,"bunch of green grapes",18,405,"Invalid input"
+"strawberry",14,"fresh strawberries pack",25,405,"Invalid input"
