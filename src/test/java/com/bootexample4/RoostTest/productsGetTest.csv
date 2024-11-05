@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"userId":1,"action":"login"}^|^200
+{"userId":2,"action":"view"}^|^200
+{"userId":3,"action":"update"}^|^200
+{"userId":4,"action":"delete"}^|^200
+{"userId":5,"action":"logout"}^|^200
+{"userId":6,"action":"login"}^|^200
+{"userId":7,"action":"view"}^|^200
+{"userId":8,"action":"update"}^|^200
+{"userId":9,"action":"delete"}^|^200
+{"userId":10,"action":"logout"}^|^200
