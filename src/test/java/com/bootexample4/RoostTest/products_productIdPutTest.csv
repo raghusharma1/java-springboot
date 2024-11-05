@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+1001^|^{id:2001,name:ProductA,description:An\ innovative\ product\ for\ modern\ homes,price:150}^|^200
+1002^|^{id:2002,name:ProductB,description:Compact\ and\ efficient\ device,price:200}^|^200
+1003^|^{id:2003,name:ProductC,description:High\ performance\ gadget\ with\ extended\ warranty,price:300}^|^404
+1004^|^{id:2004,name:ProductD,description:Environment-friendly\ solution\ for\ daily\ use,price:250}^|^200
+1005^|^{id:2005,name:ProductE,description:User-friendly\ interface\ and\ easy\ setup,price:180}^|^200
+1006^|^{id:2006,name:ProductF,description:Cost-effective\ product\ with\ high\ durability,price:220}^|^404
+1007^|^{id:2007,name:ProductG,description:Innovative\ design\ and\ top-notch\ materials,price:350}^|^200
+1008^|^{id:2008,name:ProductH,description:Best\ seller\ product\ in\ its\ category,price:290}^|^200
+1009^|^{id:2009,name:ProductI,description:Reliable\ and\ robust\ with\ a\ sleek\ look,price:320}^|^404
+1010^|^{id:2010,name:ProductJ,description:Advanced\ technology\ for\ peak\ performance,price:400}^|^200
