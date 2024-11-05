@@ -1,0 +1,11 @@
+productId^|^statusCode^|^scenario
+123^|^200^|^Login
+456^|^404^|^Logout
+789^|^500^|^Registration
+101^|^200^|^Password Reset
+112^|^400^|^Update Profile
+131^|^200^|^Delete Account
+141^|^300^|^Add to Cart
+151^|^100^|^Checkout
+161^|^200^|^View Profile
+171^|^404^|^Search
