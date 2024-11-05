@@ -1,0 +1,7 @@
+name,id,description,price,statusCode,scenario
+"apple",10,"description of the product",20,200,Successful operation
+"banana",11,"another product description",15,200,Successful operation
+"orange",12,"yet another product description",18,200,Successful operation
+"apple123",20,"invalid description for testing",99,405,Invalid input
+"banana123",21,"wrong product description",101,405,Invalid input
+"orange123",22,"incorrect product description",102,405,Invalid input
