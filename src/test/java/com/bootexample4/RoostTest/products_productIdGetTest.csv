@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+1001^|^{\"name\":\"ProductA\",\"description\":\"An advanced widget for all your needs\",\"price\":299.99}^|^200
+1002^|^{\"name\":\"ProductB\",\"description\":\"A revolutionary new tool\",\"price\":349.99}^|^404
+1003^|^{\"name\":\"ProductC\",\"description\":\"High-performance gadget\",\"price\":199.99}^|^200
+1004^|^{\"name\":\"ProductD\",\"description\":\"Eco-friendly solution\",\"price\":259.99}^|^200
+1005^|^{\"name\":\"ProductE\",\"description\":\"Smart device with unique features\",\"price\":399.99}^|^404
+1006^|^{\"name\":\"ProductF\",\"description\":\"Budget-friendly appliance\",\"price\":89.99}^|^200
+1007^|^{\"name\":\"ProductG\",\"description\":\"Luxury item with exquisite design\",\"price\":499.99}^|^200
+1008^|^{\"name\":\"ProductH\",\"description\":\"Compact and efficient\",\"price\":159.99}^|^404
+1009^|^{\"name\":\"ProductI\",\"description\":\"User-friendly and versatile\",\"price\":299.99}^|^200
+1010^|^{\"name\":\"ProductJ\",\"description\":\"Innovative technology\",\"price\":449.99}^|^200
