@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^apple^|^description of the product^|^20^|^200^|^A
+2^|^banana^|^another product description^|^30^|^200^|^B
+3^|^cherry^|^fruit description^|^15^|^200^|^A
+4^|^date^|^sweet fruit description^|^25^|^200^|^B
+5^|^elderberry^|^berry product description^|^35^|^200^|^A
+6^|^fig^|^unique fruit description^|^40^|^200^|^B
+7^|^grape^|^wine fruit description^|^10^|^200^|^A
+8^|^honeydew^|^melon product description^|^50^|^200^|^B
+9^|^ice-fruit^|^cool fruit description^|^45^|^200^|^A
+10^|^jackfruit^|^tropical fruit description^|^55^|^200^|^B
