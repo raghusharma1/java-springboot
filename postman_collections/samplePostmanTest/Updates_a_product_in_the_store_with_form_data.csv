@@ -1,0 +1,11 @@
+productId,name,id,description,price,statusCode,scenario
+1001,"apple",10,"description of the product",20,200,"Updated Product"
+1002,"banana",11,"fresh bananas from Ecuador",15,200,"Updated Product"
+1003,"orange",12,"sweet and juicy oranges",10,200,"Updated Product"
+1004,"grape",13,"farm fresh grapes",18,200,"Updated Product"
+1005,"mango",14,"delicious ripe mangoes",25,200,"Updated Product"
+1006,"invalid_name",999,"invalid_description",0,404,"Not Found"
+1007,"invalid_fruit",998,"error in description",0,404,"Not Found"
+1008,"error_name",997,"no description available",0,404,"Not Found"
+1009,"bad_name",996,"bad description",0,404,"Not Found"
+1010,"wrong_name",995,"wrong description",0,404,"Not Found"
