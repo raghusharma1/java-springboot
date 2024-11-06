@@ -1,0 +1,11 @@
+id^|^name^|^statusCode^|^scenario
+1^|^John Doe^|^200^|^Scenario A
+2^|^Jane Doe^|^404^|^Scenario B
+3^|^James Smith^|^500^|^Scenario C
+4^|^Emma Jones^|^200^|^Scenario A
+5^|^Robert Brown^|^200^|^Scenario B
+6^|^Emily Davis^|^404^|^Scenario A
+7^|^Micheal Johnson^|^500^|^Scenario C
+8^|^Sarah Williams^|^200^|^Scenario B
+9^|^David Taylor^|^200^|^Scenario A
+10^|^Jessica Martin^|^404^|^Scenario C
