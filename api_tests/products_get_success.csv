@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^$processEnvironment.nnnn_API_HOST^|^statusCode^|^scenario
+1^|^Apple^|^A juicy red apple^|^20^|^api_host_1^|^200^|^Scenario1
+2^|^Banana^|^A ripe yellow banana^|^15^|^api_host_2^|^200^|^Scenario2
+3^|^Grape^|^A bunch of purple grapes^|^25^|^api_host_3^|^200^|^Scenario3
+4^|^Orange^|^A tangy orange^|^30^|^api_host_4^|^200^|^Scenario4
+5^|^Pineapple^|^A sweet pineapple^|^35^|^api_host_5^|^200^|^Scenario5
+6^|^Strawberry^|^A pack of fresh strawberries^|^40^|^api_host_6^|^200^|^Scenario6
+7^|^Blueberry^|^A pack of fresh blueberries^|^45^|^api_host_7^|^200^|^Scenario7
+8^|^Mango^|^A juicy ripe mango^|^50^|^api_host_8^|^200^|^Scenario8
+9^|^Peach^|^A sweet and ripe peach^|^55^|^api_host_9^|^200^|^Scenario9
+10^|^Pomegranate^|^A juicy pomegranate^|^60^|^api_host_10^|^200^|^Scenario10
