@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id":1,"name":"WidgetA","description":"First quality widget","price":100}^|^200
+{"id":2,"name":"WidgetB","description":"Second quality widget","price":150}^|^200
+{"id":3,"name":"WidgetC","description":"Third quality widget","price":200}^|^405
+{"id":4,"name":"WidgetD","description":"Fourth quality widget","price":250}^|^200
+{"id":5,"name":"WidgetE","description":"Fifth quality widget","price":300}^|^405
+{"id":6,"name":"WidgetF","description":"Sixth quality widget","price":350}^|^200
+{"id":7,"name":"WidgetG","description":"Seventh quality widget","price":400}^|^200
+{"id":8,"name":"WidgetH","description":"Eighth quality widget","price":450}^|^405
+{"id":9,"name":"WidgetI","description":"Ninth quality widget","price":500}^|^200
+{"id":10,"name":"WidgetJ","description":"Tenth quality widget","price":550}^|^405

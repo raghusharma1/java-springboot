@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+123456789^|^{\"key\":\"value\",\"param\":\"data\"}^|^200
+987654321^|^{\"key\":\"value\",\"param\":\"info\"}^|^404
+112233445^|^{\"key\":\"value\",\"param\":\"update\"}^|^200
+556677889^|^{\"key\":\"value\",\"param\":\"create\"}^|^404
+990088776^|^{\"key\":\"value\",\"param\":\"delete\"}^|^200
+665544332^|^{\"key\":\"value\",\"param\":\"edit\"}^|^404
+221133445^|^{\"key\":\"value\",\"param\":\"view\"}^|^200
+334455667^|^{\"key\":\"value\",\"param\":\"list\"}^|^404
+778899001^|^{\"key\":\"value\",\"param\":\"fetch\"}^|^200
+112244668^|^{\"key\":\"value\",\"param\":\"query\"}^|^404
