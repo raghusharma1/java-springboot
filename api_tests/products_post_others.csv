@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^Apple^|^Fruit from apple tree^|^20^|^200^|^Scenario1
+2^|^Banana^|^Tropical fruit^|^15^|^200^|^Scenario2
+3^|^Orange^|^Citrus fruit^|^18^|^200^|^Scenario3
+4^|^Pear^|^Mild, sweet fruit^|^22^|^200^|^Scenario4
+5^|^Peach^|^Juicy fruit with fuzzy skin^|^21^|^200^|^Scenario5
+6^|^Plum^|^Sweet or tart fruit^|^23^|^200^|^Scenario6
+7^|^Pineapple^|^Tropical fruit with spiky skin^|^25^|^200^|^Scenario7
+8^|^Mango^|^Sweet tropical fruit^|^27^|^200^|^Scenario8
+9^|^Grape^|^Small, sweet, edible purple or green berries^|^30^|^200^|^Scenario9
+10^|^Strawberry^|^Sweet, red, heart-shaped fruit^|^35^|^200^|^Scenario10
