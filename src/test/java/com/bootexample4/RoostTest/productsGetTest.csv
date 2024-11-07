@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"userId":1,"action":"login"}^|^200
+{"userId":2,"action":"view","content":"profile"}^|^200
+{"userId":3,"action":"update","field":"email"}^|^200
+{"userId":4,"action":"logout"}^|^200
+{"userId":5,"action":"login"}^|^200
+{"userId":6,"action":"view","content":"settings"}^|^200
+{"userId":7,"action":"update","field":"password"}^|^200
+{"userId":8,"action":"logout"}^|^200
+{"userId":9,"action":"login"}^|^200
+{"userId":10,"action":"view","content":"dashboard"}^|^200
