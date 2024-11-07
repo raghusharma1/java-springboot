@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+123456789^|^{\"item\":\"Widget\",\"quantity\":5,\"price\":19.99}^|^200
+987654321^|^{\"item\":\"Gadget\",\"quantity\":3,\"price\":29.99}^|^404
+234567890^|^{\"item\":\"Device\",\"quantity\":2,\"price\":99.99}^|^200
+876543219^|^{\"item\":\"Appliance\",\"quantity\":1,\"price\":199.99}^|^404
+345678901^|^{\"item\":\"Tool\",\"quantity\":10,\"price\":9.99}^|^200
+765432198^|^{\"item\":\"Instrument\",\"quantity\":4,\"price\":49.99}^|^404
+456789012^|^{\"item\":\"Machine\",\"quantity\":7,\"price\":89.99}^|^200
+654321987^|^{\"item\":\"Equipment\",\"quantity\":9,\"price\":59.99}^|^404
+567890123^|^{\"item\":\"Component\",\"quantity\":6,\"price\":39.99}^|^200
+432198765^|^{\"item\":\"Accessory\",\"quantity\":8,\"price\":29.99}^|^404

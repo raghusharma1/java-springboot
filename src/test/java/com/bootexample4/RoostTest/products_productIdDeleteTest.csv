@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+1001^|^{\"name\":\"ProductA\",\"description\":\"An advanced widget.\"}^|^200
+1002^|^{\"name\":\"ProductB\",\"description\":\"A basic widget.\"}^|^404
+1003^|^{\"name\":\"ProductC\",\"description\":\"A helpful widget for everyday use.\"}^|^200
+1004^|^{\"name\":\"ProductD\",\"description\":\"A durable widget.\"}^|^200
+1005^|^{\"name\":\"ProductE\",\"description\":\"A sleek new design in widget technology.\"}^|^404
+1006^|^{\"name\":\"ProductF\",\"description\":\"A widget for professionals.\"}^|^200
+1007^|^{\"name\":\"ProductG\",\"description\":\"A cost-effective widget.\"}^|^200
+1008^|^{\"name\":\"ProductH\",\"description\":\"A widget that lasts longer.\"}^|^404
+1009^|^{\"name\":\"ProductI\",\"description\":\"A compact widget.\"}^|^200
+1010^|^{\"name\":\"ProductJ\",\"description\":\"An eco-friendly widget.\"}^|^200
