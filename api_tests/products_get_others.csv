@@ -1,0 +1,11 @@
+productId^|^statusCode^|^scenario
+123^|^200^|^test_scenario1
+456^|^404^|^test_scenario2
+789^|^500^|^test_scenario3
+321^|^200^|^test_scenario4
+654^|^404^|^test_scenario5
+987^|^500^|^test_scenario6
+135^|^200^|^test_scenario7
+246^|^404^|^test_scenario8
+369^|^500^|^test_scenario9
+159^|^200^|^test_scenario10
