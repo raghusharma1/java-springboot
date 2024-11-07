@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^Apple^|^Fruit of the apple tree^|^20^|^200^|^Scenario1
+2^|^Banana^|^Long curved fruit^|^15^|^200^|^Scenario2
+3^|^Pear^|^Sweet juicy fruit^|^18^|^200^|^Scenario3
+4^|^Orange^|^Citrus fruit^|^16^|^200^|^Scenario4
+5^|^Peach^|^Soft round stone fruit^|^19^|^200^|^Scenario5
+6^|^Mango^|^Tropical fruit^|^21^|^200^|^Scenario6
+7^|^Grape^|^Berry of a vine plant^|^22^|^200^|^Scenario7
+8^|^Cherry^|^Small round stone fruit^|^23^|^200^|^Scenario8
+9^|^Blueberry^|^Small round blue fruit^|^24^|^200^|^Scenario9
+10^|^Raspberry^|^Small round red fruit^|^25^|^200^|^Scenario10
