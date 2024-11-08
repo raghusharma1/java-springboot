@@ -1,0 +1,11 @@
+name,id,description,price,statusCode,scenario
+"apple",10,"description of the product",20,200,"Successful operation"
+"orange",11,"fresh and juicy orange",15,200,"Successful operation"
+"banana",12,"sweet ripe bananas",10,200,"Successful operation"
+"grapes",13,"bunch of green grapes",18,200,"Successful operation"
+"strawberry",14,"fresh strawberries pack",25,200,"Successful operation"
+"apple",10,"description of the product",20,405,"Invalid input"
+"watermelon",17,"large juicy watermelon",30,405,"Invalid input"
+"kiwi",18,"fresh kiwi fruit",12,405,"Invalid input"
+"mango",19,"ripe mangoes",22,405,"Invalid input"
+"pineapple",20,"tropical pineapple",28,405,"Invalid input"
