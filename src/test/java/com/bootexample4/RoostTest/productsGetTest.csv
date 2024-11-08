@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"userId":1,"action":"login"}^|^200
+{"userId":2,"action":"logout"}^|^200
+{"userId":3,"action":"update","details":{"email":"user3@example.com"}}^|^200
+{"userId":4,"action":"delete"}^|^200
+{"userId":5,"action":"create","details":{"username":"user5"}}^|^200
+{"userId":6,"action":"login"}^|^200
+{"userId":7,"action":"logout"}^|^200
+{"userId":8,"action":"update","details":{"email":"user8@example.com"}}^|^200
+{"userId":9,"action":"delete"}^|^200
+{"userId":10,"action":"create","details":{"username":"user10"}}^|^200

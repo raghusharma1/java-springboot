@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+1001^|^{\"name\":\"ProductA\",\"description\":\"An innovative product\"}^|^200
+1002^|^{\"name\":\"ProductB\",\"description\":\"A reliable product\"}^|^404
+1003^|^{\"name\":\"ProductC\",\"description\":\"A durable product\"}^|^200
+1004^|^{\"name\":\"ProductD\",\"description\":\"A stylish product\"}^|^200
+1005^|^{\"name\":\"ProductE\",\"description\":\"A compact product\"}^|^404
+1006^|^{\"name\":\"ProductF\",\"description\":\"An affordable product\"}^|^200
+1007^|^{\"name\":\"ProductG\",\"description\":\"A luxurious product\"}^|^200
+1008^|^{\"name\":\"ProductH\",\"description\":\"An eco-friendly product\"}^|^404
+1009^|^{\"name\":\"ProductI\",\"description\":\"A high-tech product\"}^|^200
+1010^|^{\"name\":\"ProductJ\",\"description\":\"A classic product\"}^|^200
