@@ -1,0 +1,11 @@
+name^|^price^|^statusCode^|^scenario
+apple^|^20^|^200^|^purchase
+orange^|^15^|^200^|^purchase
+banana^|^10^|^200^|^purchase
+grape^|^25^|^200^|^purchase
+strawberry^|^30^|^200^|^purchase
+blueberry^|^35^|^200^|^purchase
+raspberry^|^40^|^200^|^purchase
+kiwi^|^45^|^200^|^purchase
+mango^|^50^|^200^|^purchase
+pineapple^|^55^|^200^|^purchase
