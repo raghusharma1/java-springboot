@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"userId":1,"action":"login"}^|^200
+{"userId":2,"action":"view","page":"home"}^|^200
+{"userId":3,"action":"purchase","item":"book"}^|^200
+{"userId":4,"action":"logout"}^|^200
+{"userId":5,"action":"login"}^|^200
+{"userId":6,"action":"update","section":"profile"}^|^200
+{"userId":7,"action":"login"}^|^200
+{"userId":8,"action":"delete","target":"post"}^|^200
+{"userId":9,"action":"login"}^|^200
+{"userId":10,"action":"search","query":"news"}^|^200
