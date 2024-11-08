@@ -1,0 +1,11 @@
+productId^|^statusCode^|^scenario
+123^|^200^|^Login
+456^|^400^|^Logout
+789^|^500^|^Purchase
+101^|^200^|^Login
+112^|^300^|^Logout
+131^|^400^|^Purchase
+141^|^200^|^Login
+151^|^300^|^Logout
+161^|^400^|^Purchase
+171^|^200^|^Login
