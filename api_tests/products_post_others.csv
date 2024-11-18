@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^Apple^|^Fruit from apple tree^|^100^|^200^|^Scenario1
+2^|^Banana^|^Tropical fruit^|^50^|^200^|^Scenario2
+3^|^Orange^|^Citrus fruit^|^70^|^200^|^Scenario3
+4^|^Mango^|^King of fruits^|^150^|^200^|^Scenario4
+5^|^Pineapple^|^Tropical plant with edible fruit^|^120^|^200^|^Scenario5
+6^|^Watermelon^|^Large fruit with a hard rind^|^200^|^200^|^Scenario6
+7^|^Blueberry^|^Perennial flowering plants with blue or purple berries^|^300^|^200^|^Scenario7
+8^|^Strawberry^|^Sweet soft red fruit with a seed-studded surface^|^250^|^200^|^Scenario8
+9^|^Raspberry^|^Edible soft fruit related to the blackberry^|^350^|^200^|^Scenario9
+10^|^Blackberry^|^Edible soft fruit consisting of a cluster of soft purple-black drupelets^|^400^|^200^|^Scenario10
