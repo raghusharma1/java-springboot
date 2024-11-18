@@ -1,0 +1,3 @@
+productId,id,name,description,price
+"101","10","apple","""description of the apple""","20"
+"102","11","banana","""description of the banana""","30"
