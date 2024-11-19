@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+1001^|^{\"name\":\"ProductA\",\"description\":\"An advanced widget for all your widget needs.\"}^|^200
+1002^|^{\"name\":\"ProductB\",\"description\":\"High-performance gadget for productivity enhancement.\"}^|^200
+1003^|^{\"name\":\"ProductC\",\"description\":\"A reliable tool for home and office.\"}^|^404
+1004^|^{\"name\":\"ProductD\",\"description\":\"Compact and lightweight design for easy handling.\"}^|^200
+1005^|^{\"name\":\"ProductE\",\"description\":\"Eco-friendly and energy-efficient.\"}^|^404
+1006^|^{\"name\":\"ProductF\",\"description\":\"Offers high durability and resilience.\"}^|^200
+1007^|^{\"name\":\"ProductG\",\"description\":\"Versatile applications across various industries.\"}^|^404
+1008^|^{\"name\":\"ProductH\",\"description\":\"Designed for precision and accuracy.\"}^|^200
+1009^|^{\"name\":\"ProductI\",\"description\":\"Affordable without compromising on quality.\"}^|^404
+1010^|^{\"name\":\"ProductJ\",\"description\":\"The latest innovation in its category.\"}^|^200
