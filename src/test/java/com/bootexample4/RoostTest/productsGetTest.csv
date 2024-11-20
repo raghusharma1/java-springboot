@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"userId":1,"username":"UserOne","email":"userone@example.com"}^|^200
+{"userId":2,"username":"UserTwo","email":"usertwo@example.com"}^|^200
+{"userId":3,"username":"UserThree","email":"userthree@example.com"}^|^200
+{"userId":4,"username":"UserFour","email":"userfour@example.com"}^|^200
+{"userId":5,"username":"UserFive","email":"userfive@example.com"}^|^200
+{"userId":6,"username":"UserSix","email":"usersix@example.com"}^|^200
+{"userId":7,"username":"UserSeven","email":"userseven@example.com"}^|^200
+{"userId":8,"username":"UserEight","email":"usereight@example.com"}^|^200
+{"userId":9,"username":"UserNine","email":"usernine@example.com"}^|^200
+{"userId":10,"username":"UserTen","email":"userten@example.com"}^|^200
