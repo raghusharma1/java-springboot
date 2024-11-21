@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^productId
+1^|^apple^|^description of the product^|^20^|^10
+2^|^banana^|^another product description^|^15^|^20
+3^|^orange^|^yet another product description^|^30^|^30
+4^|^kiwi^|^kiwi fruit description^|^25^|^40
+5^|^pineapple^|^description for pineapple^|^35^|^50
+6^|^mango^|^mango fruit description^|^40^|^60
+7^|^pear^|^pear fruit description^|^45^|^70
+8^|^peach^|^peach fruit description^|^50^|^80
+9^|^plum^|^plum fruit description^|^55^|^90
+10^|^grape^|^grape fruit description^|^60^|^100
