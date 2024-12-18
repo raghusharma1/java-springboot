@@ -1,0 +1,11 @@
+productId,statusCode,scenario
+1001,"200","Product deleted"
+1002,"200","Product deleted"
+1003,"404","Not Found"
+1004,"404","Not Found"
+1005,"404","Not Found"
+1006,"200","Product deleted"
+1007,"200","Product deleted"
+1008,"404","Not Found"
+1009,"404","Not Found"
+1010,"200","Product deleted"
