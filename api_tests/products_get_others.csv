@@ -1,0 +1,11 @@
+id^|^name^|^statusCode^|^scenario
+001^|^John Doe^|^200^|^Scenario1
+002^|^Jane Doe^|^404^|^Scenario2
+003^|^James Smith^|^500^|^Scenario3
+004^|^John^|^200^|^Scenario4
+005^|^Null^|^400^|^Scenario5
+006^|^Invalid Name^|^700^|^Scenario6
+007^|^Test User^|^300^|^Scenario7
+008^|^Alice^|^200^|^Scenario1
+009^|^Bob^|^100^|^Scenario2
+010^|^Charlie^|^600^|^Scenario3
