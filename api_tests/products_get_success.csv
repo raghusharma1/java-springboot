@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^Apple^|^A juicy red apple^|^20^|^200^|^Scenario1
+2^|^Banana^|^A ripe yellow banana^|^15^|^200^|^Scenario2
+3^|^Cherry^|^A sweet little cherry^|^10^|^200^|^Scenario3
+4^|^Durian^|^A strong-smelling durian^|^30^|^200^|^Scenario4
+5^|^Elderberry^|^A tangy elderberry^|^25^|^200^|^Scenario5
+6^|^Fig^|^A sweet and soft fig^|^20^|^200^|^Scenario6
+7^|^Grape^|^A bunch of purple grapes^|^15^|^200^|^Scenario7
+8^|^Honeydew^|^A fresh green honeydew^|^30^|^200^|^Scenario8
+9^|^Iceberg Lettuce^|^A crisp iceberg lettuce^|^10^|^200^|^Scenario9
+10^|^Jackfruit^|^A large and sweet jackfruit^|^35^|^200^|^Scenario10
