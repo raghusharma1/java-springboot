@@ -1,0 +1,11 @@
+productId^|^productName^|^statusCode^|^scenario
+1234^|^Apple iPhone 12^|^200^|^Purchase
+5678^|^Samsung Galaxy S21^|^404^|^Add to Cart
+9101^|^OnePlus 9 Pro^|^200^|^Purchase
+1121^|^Apple iPhone 12 Pro^|^500^|^Checkout
+3141^|^Samsung Galaxy Note 20^|^200^|^Browse
+5161^|^OnePlus 8 Pro^|^401^|^Login
+7181^|^Apple iPhone 11^|^200^|^Purchase
+9202^|^Samsung Galaxy S20^|^404^|^Add to Wishlist
+1222^|^OnePlus 7 Pro^|^200^|^Purchase
+3242^|^Apple iPhone SE^|^500^|^Checkout
