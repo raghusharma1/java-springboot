@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id":1,"name":"ProductA","description":"First product","price":100}^|^200
+{"id":2,"name":"ProductB","description":"Second product","price":150}^|^405
+{"id":3,"name":"ProductC","description":"Third product","price":200}^|^200
+{"id":4,"name":"ProductD","description":"Fourth product","price":250}^|^405
+{"id":5,"name":"ProductE","description":"Fifth product","price":300}^|^200
+{"id":6,"name":"ProductF","description":"Sixth product","price":350}^|^405
+{"id":7,"name":"ProductG","description":"Seventh product","price":400}^|^200
+{"id":8,"name":"ProductH","description":"Eighth product","price":450}^|^405
+{"id":9,"name":"ProductI","description":"Ninth product","price":500}^|^200
+{"id":10,"name":"ProductJ","description":"Tenth product","price":550}^|^405
