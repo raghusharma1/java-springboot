@@ -1,0 +1,2 @@
+product,expectedResponse
+"{""id"":10,""name"":""apple"",""description"":""description of the product"",""price"":20}","{""id"":10,""name"":""apple"",""description"":""description of the product"",""price"":20}"
