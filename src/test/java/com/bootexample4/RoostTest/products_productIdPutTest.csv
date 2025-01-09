@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+1^|^{id:10,name:ProductA,description:Best Product,price:100}^|^200
+2^|^{id:20,name:ProductB,description:Good Quality,price:150}^|^404
+3^|^{id:30,name:ProductC,description:Affordable,price:90}^|^200
+4^|^{id:40,name:ProductD,description:Exclusive,price:200}^|^200
+5^|^{id:50,name:ProductE,description:Innovative,price:110}^|^404
+6^|^{id:60,name:ProductF,description:Reliable,price:120}^|^200
+7^|^{id:70,name:ProductG,description:Efficient,price:130}^|^404
+8^|^{id:80,name:ProductH,description:Compact,price:140}^|^200
+9^|^{id:90,name:ProductI,description:Stylish,price:160}^|^404
+10^|^{id:100,name:ProductJ,description:User-friendly,price:170}^|^200
