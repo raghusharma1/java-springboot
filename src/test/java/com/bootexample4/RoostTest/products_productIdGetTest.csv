@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+123456^|^{\"name\":\"John\",\"age\":30,\"city\":\"New York\"}^|^200
+123457^|^{\"name\":\"Jane\",\"age\":25,\"city\":\"Los Angeles\"}^|^404
+123458^|^{\"name\":\"Mike\",\"age\":35,\"city\":\"Chicago\"}^|^200
+123459^|^{\"name\":\"Emma\",\"age\":28,\"city\":\"Houston\"}^|^404
+123460^|^{\"name\":\"Bob\",\"age\":22,\"city\":\"Phoenix\"}^|^200
+123461^|^{\"name\":\"Alice\",\"age\":31,\"city\":\"Philadelphia\"}^|^404
+123462^|^{\"name\":\"Sam\",\"age\":27,\"city\":\"San Antonio\"}^|^200
+123463^|^{\"name\":\"Lily\",\"age\":29,\"city\":\"San Diego\"}^|^404
+123464^|^{\"name\":\"Chris\",\"age\":34,\"city\":\"Dallas\"}^|^200
+123465^|^{\"name\":\"Anna\",\"age\":32,\"city\":\"San Jose\"}^|^404
