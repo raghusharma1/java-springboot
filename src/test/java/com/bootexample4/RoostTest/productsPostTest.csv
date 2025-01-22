@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id":1,"name":"Product A","description":"A high-quality item","price":100}^|^200
+{"id":2,"name":"Product B","description":"An essential accessory","price":150}^|^200
+{"id":3,"name":"Product C","description":"For luxury living","price":300}^|^405
+{"id":4,"name":"Product D","description":"Economical and reliable","price":80}^|^200
+{"id":5,"name":"Product E","description":"Best for outdoor use","price":220}^|^405
+{"id":6,"name":"Product F","description":"Lightweight and compact","price":90}^|^200
+{"id":7,"name":"Product G","description":"Stylish and modern","price":250}^|^405
+{"id":8,"name":"Product H","description":"Rugged and durable","price":130}^|^200
+{"id":9,"name":"Product I","description":"Convenient and affordable","price":60}^|^405
+{"id":10,"name":"Product J","description":"Luxury at its best","price":500}^|^200
