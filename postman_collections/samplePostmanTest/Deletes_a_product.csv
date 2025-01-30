@@ -1,0 +1,7 @@
+productId,statusCode,scenario
+12345,200,"Product deleted"
+12346,200,"Product deleted"
+12347,200,"Product deleted"
+12348,404,"Not Found"
+12349,404,"Not Found"
+12350,404,"Not Found"
