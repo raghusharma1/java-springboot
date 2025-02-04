@@ -1,0 +1,11 @@
+productId^|^statusCode^|^scenario
+12345^|^200^|^Login
+67890^|^404^|^Registration
+11223^|^500^|^Password Reset
+44566^|^200^|^Profile Update
+78901^|^403^|^Login
+22334^|^404^|^Payment
+55677^|^200^|^Logout
+89012^|^500^|^Cart Update
+33445^|^403^|^Product View
+77788^|^200^|^Checkout
