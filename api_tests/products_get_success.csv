@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^apple^|^description of the product^|^20^|^200^|^Successful operation
+2^|^banana^|^description of the product^|^15^|^200^|^Successful operation
+3^|^orange^|^description of the product^|^25^|^200^|^Successful operation
+4^|^grape^|^description of the product^|^30^|^200^|^Successful operation
+5^|^pineapple^|^description of the product^|^35^|^200^|^Successful operation
+6^|^mango^|^description of the product^|^40^|^200^|^Successful operation
+7^|^kiwi^|^description of the product^|^45^|^200^|^Successful operation
+8^|^peach^|^description of the product^|^50^|^200^|^Successful operation
+9^|^cherry^|^description of the product^|^55^|^200^|^Successful operation
+10^|^blueberry^|^description of the product^|^60^|^200^|^Successful operation
