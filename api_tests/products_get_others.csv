@@ -1,0 +1,11 @@
+productId^|^statusCode^|^scenario
+1234^|^200^|^Payment
+5678^|^404^|^Registration
+9012^|^500^|^Login
+3456^|^200^|^Checkout
+7890^|^400^|^Cart
+2345^|^300^|^Search
+6789^|^200^|^Profile
+0123^|^404^|^Logout
+4567^|^500^|^Account
+8901^|^200^|^Support
