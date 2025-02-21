@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id":1,"name":"Alpha","description":"First product","price":100}^|^200
+{"id":2,"name":"Bravo","description":"Second product","price":150}^|^200
+{"id":3,"name":"Charlie","description":"Third product","price":200}^|^200
+{"id":4,"name":"Delta","description":"Fourth product","price":250}^|^200
+{"id":5,"name":"Echo","description":"Fifth product","price":300}^|^200
+{"id":6,"name":"Foxtrot","description":"Sixth product","price":350}^|^405
+{"id":7,"name":"Golf","description":"Seventh product","price":400}^|^405
+{"id":8,"name":"Hotel","description":"Eighth product","price":450}^|^405
+{"id":9,"name":"India","description":"Ninth product","price":500}^|^405
+{"id":10,"name":"Juliet","description":"Tenth product","price":550}^|^405
