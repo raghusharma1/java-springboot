@@ -1,0 +1,5 @@
+productId,name,id,description,price,statusCode,scenario
+12345,"apple",10,"description of the product",20,200,"Updated Product"
+12346,"apple",10,"description of the product",20,200,"Updated Product"
+12347,"banana",11,"incorrect description",15,404,"Not Found"
+12348,"orange",12,"wrong info",30,404,"Not Found"
