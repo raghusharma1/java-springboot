@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^productId
+1^|^apple^|^fresh apple from farm^|^20^|^1001
+2^|^banana^|^ripe banana from market^|^15^|^1002
+3^|^grapes^|^seedless grapes from vineyard^|^30^|^1003
+4^|^mango^|^sweet mango from orchard^|^25^|^1004
+5^|^pineapple^|^juicy pineapple from tropics^|^35^|^1005
+6^|^strawberry^|^red strawberry from garden^|^40^|^1006
+7^|^blueberry^|^delicious blueberry from forest^|^45^|^1007
+8^|^raspberry^|^tangy raspberry from bush^|^50^|^1008
+9^|^blackberry^|^sweet blackberry from tree^|^55^|^1009
+10^|^pear^|^crisp pear from tree^|^60^|^1010
