@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+1001^|^{ "name": "Product A", "category": "Electronics", "price": 299.99 }^|^200
+1002^|^{ "name": "Product B", "category": "Books", "price": 23.99 }^|^404
+1003^|^{ "name": "Product C", "category": "Clothing", "price": 49.99 }^|^200
+1004^|^{ "name": "Product D", "category": "Electronics", "price": 859.99 }^|^200
+1005^|^{ "name": "Product E", "category": "Garden", "price": 15.50 }^|^404
+1006^|^{ "name": "Product F", "category": "Electronics", "price": 999.99 }^|^200
+1007^|^{ "name": "Product G", "category": "Books", "price": 45.00 }^|^404
+1008^|^{ "name": "Product H", "category": "Clothing", "price": 75.50 }^|^200
+1009^|^{ "name": "Product I", "category": "Electronics", "price": 1200.00 }^|^200
+1010^|^{ "name": "Product J", "category": "Garden", "price": 22.50 }^|^404
