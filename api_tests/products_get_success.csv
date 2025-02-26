@@ -1,0 +1,11 @@
+AUTH_TOKEN^|^statusCode^|^scenario
+1234abcd^|^200^|^login
+5678efgh^|^200^|^logout
+90abcd12^|^200^|^profile_update
+3456ijkl^|^200^|^password_change
+7890mnop^|^200^|^account_deletion
+abcd1234^|^200^|^account_creation
+efgh5678^|^200^|^password_reset
+ijkl3456^|^200^|^email_change
+mnop7890^|^200^|^add_to_cart
+1234qrst^|^200^|^checkout
