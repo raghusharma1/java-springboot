@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^apple^|^description of the product^|^20^|^200^|^Scenario1
+2^|^banana^|^another product description^|^15^|^400^|^Scenario2
+3^|^cherry^|^yet another product description^|^30^|^500^|^Scenario3
+4^|^date^|^a different product description^|^25^|^300^|^Scenario4
+5^|^elderberry^|^product description^|^35^|^200^|^Scenario5
+6^|^fig^|^some product description^|^40^|^400^|^Scenario6
+7^|^grape^|^random product description^|^45^|^500^|^Scenario7
+8^|^honeydew^|^product description again^|^50^|^300^|^Scenario8
+9^|^ice-cream^|^description of ice-cream^|^55^|^200^|^Scenario9
+10^|^jelly^|^jelly product description^|^60^|^400^|^Scenario10
