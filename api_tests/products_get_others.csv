@@ -1,0 +1,11 @@
+productName^|^productID^|^statusCode^|^scenario
+iPhone 12^|^A1234^|^200^|^Sales in Europe
+Samsung Galaxy S21^|^B5678^|^404^|^Launch in Asia
+Macbook Pro^|^C9012^|^500^|^Update in North America
+Dell XPS 15^|^D3456^|^200^|^Promotion in Africa
+iPad Pro^|^E7890^|^200^|^Release in Australia
+Sony Xperia 5^|^F1121^|^404^|^Discontinued globally
+Microsoft Surface Pro^|^G3344^|^200^|^Rework in Europe
+Google Pixel 5^|^H5566^|^500^|^Recall in North America
+OnePlus 8^|^I7788^|^200^|^Price drop in Asia
+Huawei Mate 40^|^J9900^|^404^|^Banned in North America
