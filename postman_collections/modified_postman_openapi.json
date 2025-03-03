@@ -1,0 +1,683 @@
+{
+  "item": [
+    {
+      "id": "b4e2738d-07a4-439f-b4f1-997d0d40527c",
+      "name": "products",
+      "item": [
+        {
+          "id": "b7bb268a-4af4-44d4-a2e6-7a982b917ce2",
+          "name": "Get All Products",
+          "request": {
+            "name": "Get All Products",
+            "description": {
+              "content": "It gives you all products",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "products"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "9081ec0e-bc45-4660-9fab-b8a3468f87e2",
+              "name": "Successful operation",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "products"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"name\": \"apple\",\n  \"id\": 10,\n  \"description\": \"description of the product\",\n  \"price\": 20\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "------------existing_test_case------------\n\ndescribe('API Load Test', () => {\n  it('should handle 1000 users over 1 minute', async () => {\n    const response = await artillery.fire({\n      config: {\n        target: 'http://api.example.com',\n        phases: [{ duration: 60, arrivalRate: 1000 }]\n      },\n      scenarios: [{\n        flow: [\n          { get: { url: '/users' } }\n        ]\n      }]\n    });\n    expect(response.stats.codes['200']).toBeGreaterThan(500);\n  });\n});\n\n------------existing_test_case------------\n\n\n------------import_details------------\n\nconst artillery = require('artillery-core');\nconst expect = require('expect');\n\n------------import_details------------\n\n\n------------source_code------------\n\n// Updated API Endpoint to handle user details with query parameters\nasync function fetchUserDetails(userId, includePosts = false) {\n  const queryParam = includePosts ? '?include=posts' : '';\n  const response = await fetch(`http://api.example.com/users/${userId}${queryParam}`);\n  return response.json();\n}\n\n------------source_code------------\n\n"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "ad93e9b3-7bef-4e26-a5dd-02e6d2a0d495",
+          "name": "Add a new product to the store",
+          "request": {
+            "name": "Add a new product to the store",
+            "description": {
+              "content": "Add a new product to the store",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "products"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"name\": \"{{name}}\",\n    \"id\": \"{{id}}\",\n    \"description\": \"{{description}}\",\n    \"price\": \"{{price}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "35cea2b2-8111-4d41-b578-cbec8ff4ea49",
+              "name": "Successful operation",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "products"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"name\": \"{{name}}\",\n    \"id\": \"{{id}}\",\n    \"description\": \"{{description}}\",\n    \"price\": \"{{price}}\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"name\": \"apple\",\n  \"id\": 10,\n  \"description\": \"description of the product\",\n  \"price\": 20\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "00907ac4-9d87-484a-8d8f-8735cea4e418",
+              "name": "Invalid input",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "products"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"name\": \"{{name}}\",\n    \"id\": \"{{id}}\",\n    \"description\": \"{{description}}\",\n    \"price\": \"{{price}}\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Method Not Allowed",
+              "code": 405,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "------------existing_test_case------------\n\ndescribe('API Load Test', () => {\n  it('should handle 1000 users over 1 minute', async () => {\n    const response = await artillery.fire({\n      config: {\n        target: 'http://api.example.com',\n        phases: [{ duration: 60, arrivalRate: 1000 }]\n      },\n      scenarios: [{\n        flow: [\n          { get: { url: '/users' } }\n        ]\n      }]\n    });\n    expect(response.stats.codes['200']).toBeGreaterThan(500);\n  });\n});\n\n------------existing_test_case------------\n\n\n------------import_details------------\n\nconst artillery = require('artillery-core');\nconst expect = require('expect');\n\n------------import_details------------\n\n\n------------source_code------------\n\n// Updated API Endpoint to handle user details with query parameters\nasync function fetchUserDetails(userId, includePosts = false) {\n  const queryParam = includePosts ? '?include=posts' : '';\n  const response = await fetch(`http://api.example.com/users/${userId}${queryParam}`);\n  return response.json();\n}\n\n------------source_code------------\n\n"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "a872f0d8-80a1-445b-86f7-c439ab0d1b02",
+          "name": "{productId}",
+          "item": [
+            {
+              "id": "efbd617c-c5db-4f60-a637-2b475ec33e4c",
+              "name": "Find product by ID",
+              "request": {
+                "name": "Find product by ID",
+                "description": {
+                  "content": "Returns a single product",
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "products",
+                    ":productId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "{{productId}}",
+                      "key": "productId",
+                      "description": "(Required) ID of product to return"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "auth": null
+              },
+              "response": [
+                {
+                  "id": "5891af94-d98e-4fe6-9d1f-e93bd9938960",
+                  "name": "successful operation",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "products",
+                        ":productId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{productId}}",
+                          "key": "productId",
+                          "description": "(Required) ID of product to return"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"name\": \"apple\",\n  \"id\": 10,\n  \"description\": \"description of the product\",\n  \"price\": 20\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "338a0884-2055-4453-94a4-35f73ab18b60",
+                  "name": "Product not found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "products",
+                        ":productId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{productId}}",
+                          "key": "productId",
+                          "description": "(Required) ID of product to return"
+                        }
+                      ]
+                    },
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "exec": [
+                      "------------existing_test_case------------\n\ndescribe('API Load Test', () => {\n  it('should handle 1000 users over 1 minute', async () => {\n    const response = await artillery.fire({\n      config: {\n        target: 'http://api.example.com',\n        phases: [{ duration: 60, arrivalRate: 1000 }]\n      },\n      scenarios: [{\n        flow: [\n          { get: { url: '/users' } }\n        ]\n      }]\n    });\n    expect(response.stats.codes['200']).toBeGreaterThan(500);\n  });\n});\n\n------------existing_test_case------------\n\n\n------------import_details------------\n\nconst artillery = require('artillery-core');\nconst expect = require('expect');\n\n------------import_details------------\n\n\n------------source_code------------\n\n// Updated API Endpoint to handle user details with query parameters\nasync function fetchUserDetails(userId, includePosts = false) {\n  const queryParam = includePosts ? '?include=posts' : '';\n  const response = await fetch(`http://api.example.com/users/${userId}${queryParam}`);\n  return response.json();\n}\n\n------------source_code------------\n\n"
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "id": "cde76e05-1ca0-4de6-8456-974990180c2a",
+              "name": "Updates a product in the store with form data",
+              "request": {
+                "name": "Updates a product in the store with form data",
+                "description": {
+                  "content": "",
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "products",
+                    ":productId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "{{productId}}",
+                      "key": "productId",
+                      "description": "(Required) ID of product that needs to be updated"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PUT",
+                "auth": null,
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"name\": \"{{name}}\",\n    \"id\": \"{{id}}\",\n    \"description\": \"{{description}}\",\n    \"price\": \"{{price}}\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "response": [
+                {
+                  "id": "6003b12b-7de9-40c5-9e57-25c67aaff477",
+                  "name": "Updated Product",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "products",
+                        ":productId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{productId}}",
+                          "key": "productId",
+                          "description": "(Required) ID of product that needs to be updated"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "PUT",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n    \"name\": \"{{name}}\",\n    \"id\": \"{{id}}\",\n    \"description\": \"{{description}}\",\n    \"price\": \"{{price}}\"\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"name\": \"apple\",\n  \"id\": 10,\n  \"description\": \"description of the product\",\n  \"price\": 20\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "fa61950e-d05c-4ab5-8deb-ba69e31ecda1",
+                  "name": "Not Found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "products",
+                        ":productId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{productId}}",
+                          "key": "productId",
+                          "description": "(Required) ID of product that needs to be updated"
+                        }
+                      ]
+                    },
+                    "method": "PUT",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n    \"name\": \"{{name}}\",\n    \"id\": \"{{id}}\",\n    \"description\": \"{{description}}\",\n    \"price\": \"{{price}}\"\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "exec": [
+                      "------------existing_test_case------------\n\ndescribe('API Load Test', () => {\n  it('should handle 1000 users over 1 minute', async () => {\n    const response = await artillery.fire({\n      config: {\n        target: 'http://api.example.com',\n        phases: [{ duration: 60, arrivalRate: 1000 }]\n      },\n      scenarios: [{\n        flow: [\n          { get: { url: '/users' } }\n        ]\n      }]\n    });\n    expect(response.stats.codes['200']).toBeGreaterThan(500);\n  });\n});\n\n------------existing_test_case------------\n\n\n------------import_details------------\n\nconst artillery = require('artillery-core');\nconst expect = require('expect');\n\n------------import_details------------\n\n\n------------source_code------------\n\n// Updated API Endpoint to handle user details with query parameters\nasync function fetchUserDetails(userId, includePosts = false) {\n  const queryParam = includePosts ? '?include=posts' : '';\n  const response = await fetch(`http://api.example.com/users/${userId}${queryParam}`);\n  return response.json();\n}\n\n------------source_code------------\n\n"
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "id": "6d276b45-4325-4950-ac58-005479293b35",
+              "name": "Deletes a product",
+              "request": {
+                "name": "Deletes a product",
+                "description": {
+                  "content": "delete a product",
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "products",
+                    ":productId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "{{productId}}",
+                      "key": "productId",
+                      "description": "(Required) Product id to delete"
+                    }
+                  ]
+                },
+                "method": "DELETE",
+                "auth": null
+              },
+              "response": [
+                {
+                  "id": "2e786d0a-d551-4eee-a439-9413b18621ee",
+                  "name": "Product deleted",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "products",
+                        ":productId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{productId}}",
+                          "key": "productId",
+                          "description": "(Required) Product id to delete"
+                        }
+                      ]
+                    },
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                },
+                {
+                  "id": "e5d64c18-00b1-4c9f-8fd4-43feedee1ccf",
+                  "name": "Not Found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "products",
+                        ":productId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{productId}}",
+                          "key": "productId",
+                          "description": "(Required) Product id to delete"
+                        }
+                      ]
+                    },
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "text/plain"
+                    }
+                  ],
+                  "body": "",
+                  "cookie": [],
+                  "_postman_previewlanguage": "text"
+                }
+              ],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "exec": [
+                      "------------existing_test_case------------\n\ndescribe('API Load Test', () => {\n  it('should handle 1000 users over 1 minute', async () => {\n    const response = await artillery.fire({\n      config: {\n        target: 'http://api.example.com',\n        phases: [{ duration: 60, arrivalRate: 1000 }]\n      },\n      scenarios: [{\n        flow: [\n          { get: { url: '/users' } }\n        ]\n      }]\n    });\n    expect(response.stats.codes['200']).toBeGreaterThan(500);\n  });\n});\n\n------------existing_test_case------------\n\n\n------------import_details------------\n\nconst artillery = require('artillery-core');\nconst expect = require('expect');\n\n------------import_details------------\n\n\n------------source_code------------\n\n// Updated API Endpoint to handle user details with query parameters\nasync function fetchUserDetails(userId, includePosts = false) {\n  const queryParam = includePosts ? '?include=posts' : '';\n  const response = await fetch(`http://api.example.com/users/${userId}${queryParam}`);\n  return response.json();\n}\n\n------------source_code------------\n\n"
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "http://52.66.106.18:8080/api",
+      "key": "baseUrl"
+    },
+    {
+      "type": "integer",
+      "value": 200,
+      "key": "statusCode"
+    }
+  ],
+  "info": {
+    "_postman_id": "708c5f8b-db28-4a09-a980-5fb292e69d9e",
+    "name": "Swagger My-Products - OpenAPI 3.0",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "This page is for my products api spec",
+      "type": "text/plain"
+    }
+  }
+}
