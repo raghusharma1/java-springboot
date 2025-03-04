@@ -1,0 +1,5 @@
+name,id,description,price,statusCode,scenario
+"apple",10^|"description of the product",20,200,Successful operation
+"apple",10^|"description of the product",20,405,Invalid input
+"orange",15^|"another product description",25,200,Successful operation
+"banana",20^|"yet another product description",30,405,Invalid input
