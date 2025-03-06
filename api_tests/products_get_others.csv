@@ -1,0 +1,11 @@
+productId^|^productName^|^statusCode^|^scenario
+123^|^Apple iPhone 12^|^200^|^Purchase
+456^|^Samsung Galaxy S21^|^404^|^Search
+789^|^Google Pixel 5^|^500^|^Add to Cart
+101^|^OnePlus 8T^|^200^|^Purchase
+112^|^Apple iPhone 11^|^404^|^Search
+131^|^Samsung Galaxy S20^|^500^|^Add to Cart
+141^|^Google Pixel 4^|^200^|^Purchase
+151^|^OnePlus 7T^|^404^|^Search
+161^|^Apple iPhone X^|^500^|^Add to Cart
+171^|^Samsung Galaxy S10^|^200^|^Purchase

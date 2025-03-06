@@ -1,0 +1,11 @@
+name^|^description^|^price^|^statusCode^|^scenario
+apple^|^description of the product^|^20^|^200^|^scenario1
+banana^|^description of the product^|^30^|^200^|^scenario2
+cherry^|^description of the product^|^40^|^200^|^scenario3
+date^|^description of the product^|^50^|^200^|^scenario4
+elderberry^|^description of the product^|^60^|^200^|^scenario5
+fig^|^description of the product^|^70^|^200^|^scenario6
+grape^|^description of the product^|^80^|^200^|^scenario7
+honeydew^|^description of the product^|^90^|^200^|^scenario8
+ice-cream^|^description of the product^|^100^|^200^|^scenario9
+jackfruit^|^description of the product^|^110^|^200^|^scenario10
