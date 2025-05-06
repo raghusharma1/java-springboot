@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+15463^|^{"productName": "game console", "category": "electronics", "price": 300}^|^200
+34867^|^{"productName": "laptop", "category": "electronics", "price": 800}^|^200
+97823^|^{"productName": "chair", "category": "furniture", "price": 150}^|^200
+43561^|^{"productName": "desk", "category": "furniture", "price": 250}^|^200
+89472^|^{"productName": "TV", "category": "electronics", "price": 1200}^|^200
+52617^|^{"productName": "refrigerator", "category": "appliances", "price": 2500}^|^200
+25098^|^{"productName": "microwave", "category": "appliances", "price": 150}^|^200
+78963^|^{"productName": "speaker", "category": "electronics", "price": 120}^|^200
+89421^|^{"productName": "watch", "category": "accessories", "price": 120}^|^404
+12089^|^{"productName": "earphones", "category": "electronics", "price": 50}^|^200
