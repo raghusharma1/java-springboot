@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+1^|^{"id": 101, "name": "Product1", "description": "This is product 1", "price": 200}^|^200
+2^|^{"id": 102, "name": "Product2", "description": "This is product 2", "price": 300}^|^200
+3^|^{"id": 103, "name": "Product3", "description": "This is product 3", "price": 400}^|^200
+4^|^{"id": 104, "name": "Product4", "description": "This is product 4", "price": 500}^|^200
+5^|^{"id": 105, "name": "Product5", "description": "This is product 5", "price": 600}^|^200
+6^|^{"id": 106, "name": "Product6", "description": "This is product 6", "price": 700}^|^404
+7^|^{"id": 107, "name": "Product7", "description": "This is product 7", "price": 800}^|^404
+8^|^{"id": 108, "name": "Product8", "description": "This is product 8", "price": 900}^|^404
+9^|^{"id": 109, "name": "Product9", "description": "This is product 9", "price": 1000}^|^404
+10^|^{"id": 110, "name": "Product10", "description": "This is product 10", "price": 1100}^|^404
