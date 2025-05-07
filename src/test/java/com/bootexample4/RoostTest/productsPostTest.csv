@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id":1,"name":"John","description":"First record","price":300}^|^200
+{"id":2,"name":"Mary","description":"Second record","price":500}^|^200
+{"id":3,"name":"Sam","description":"Third record","price":700}^|^405
+{"id":4,"name":"Emma","description":"Fourth record","price":900}^|^200
+{"id":5,"name":"Jack","description":"Fifth record","price":150}^|^405
+{"id":6,"name":"Sally","description":"Sixth record","price":350}^|^200
+{"id":7,"name":"Rick","description":"Seventh record","price":550}^|^405
+{"id":8,"name":"Molly","description":"Eighth record","price":750}^|^200
+{"id":9,"name":"Bob","description":"Ninth record","price":950}^|^405
+{"id":10,"name":"Alice","description":"Tenth record","price":500}^|^200
