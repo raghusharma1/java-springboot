@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+1^|^{ "userId": 101, "title": "Data record 1", "body": "This is data record 1"}^|^200
+2^|^{ "userId": 102, "title": "Data record 2", "body": "This is data record 2"}^|^200
+3^|^{ "userId": 103, "title": "Data record 3", "body": "This is data record 3"}^|^404
+4^|^{ "userId": 104, "title": "Data record 4", "body": "This is data record 4"}^|^200
+5^|^{ "userId": 105, "title": "Data record 5", "body": "This is data record 5"}^|^404
+6^|^{ "userId": 106, "title": "Data record 6", "body": "This is data record 6"}^|^200
+7^|^{ "userId": 107, "title": "Data record 7", "body": "This is data record 7"}^|^404
+8^|^{ "userId": 108, "title": "Data record 8", "body": "This is data record 8"}^|^200
+9^|^{ "userId": 109, "title": "Data record 9", "body": "This is data record 9"}^|^404
+10^|^{ "userId": 110, "title": "Data record 10", "body": "This is data record 10"}^|^200

@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id": 1, "name": "Product One", "description": "This is a fantastic product.", "price": 100}^|^200
+{"id": 2, "name": "Product Two", "description": "This product will change your life.", "price": 200}^|^200
+{"id": 3, "name": "Product Three", "description": "Improve your daily routine with this product.", "price": 300}^|^200
+{"id": 4, "name": "Product Four", "description": "Unique and exclusive product.", "price": 400}^|^405
+{"id": 5, "name": "Product Five", "description": "Not found else where.", "price": 500}^|^405
+{"id": 6, "name": "Product Six", "description": "Latest and best selling product.", "price": 600}^|^200
+{"id": 7, "name": "Product Seven", "description": "Rated five star by users.", "price": 700}^|^200
+{"id": 8, "name": "Product Eight", "description": "Limited stock remaining, hurry up!", "price": 800}^|^405
+{"id": 9, "name": "Product Nine", "description": "Brand new and trendy product.", "price": 900}^|^200
+{"id": 10, "name": "Product Ten", "description": "Limited edition now available.", "price": 1000}^|^405

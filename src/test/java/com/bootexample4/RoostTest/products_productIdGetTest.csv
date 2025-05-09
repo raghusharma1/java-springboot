@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+1001^|^{"id": 1, "name": "Product 1", "description": "This is Product 1"}^|^200
+1002^|^{"id": 2, "name": "Product 2", "description": "This is Product 2"}^|^200
+1003^|^{"id": 3, "name": "Product 3", "description": "This is Product 3"}^|^404
+1004^|^{"id": 4, "name": "Product 4", "description": "This is Product 4"}^|^200
+1005^|^{"id": 5, "name": "Product 5", "description": "This is Product 5"}^|^200
+1006^|^{"id": 6, "name": "Product 6", "description": "This is Product 6"}^|^404
+1007^|^{"id": 7, "name": "Product 7", "description": "This is Product 7"}^|^200
+1008^|^{"id": 8, "name": "Product 8", "description": "This is Product 8"}^|^200
+1009^|^{"id": 9, "name": "Product 9", "description": "This is Product 9"}^|^200
+1010^|^{"id": 10, "name": "Product 10", "description": "This is Product 10"}^|^404
