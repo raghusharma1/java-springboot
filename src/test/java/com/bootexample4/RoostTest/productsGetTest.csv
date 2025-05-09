@@ -1,0 +1,11 @@
+RequestBody,statusCode
+{"checkoutId":"101010XXX","items":[{"itemNumber":"L1","quantity":"2"}]},200
+{"checkoutId":"101011XXX","items":[{"itemNumber":"L2","quantity":"3"}]},200
+{"checkoutId":"101012XXX","items":[{"itemNumber":"L3","quantity":"1"}]},200
+{"checkoutId":"101013XXX","items":[{"itemNumber":"L4","quantity":"1"}]},200
+{"checkoutId":"101014XXX","items":[{"itemNumber":"L5","quantity":"5"}]},200
+{"checkoutId":"101015XXX","items":[{"itemNumber":"L6","quantity":"3"}]},200
+{"checkoutId":"101016XXX","items":[{"itemNumber":"L7","quantity":"2"}]},200
+{"checkoutId":"101017XXX","items":[{"itemNumber":"L8","quantity":"1"}]},200
+{"checkoutId":"101018XXX","items":[{"itemNumber":"L9","quantity":"4"}]},200
+{"checkoutId":"101019XXX","items":[{"itemNumber":"L10","quantity":"2"}]},200
