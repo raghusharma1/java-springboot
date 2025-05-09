@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^Apple^|^A juicy red apple^|^10^|^200^|^Scenario_A
+2^|^Orange^|^A sweet and tart orange^|^12^|^201^|^Scenario_B
+3^|^Banana^|^A ripe yellow banana^|^8^|^202^|^Scenario_C
+4^|^Pineapple^|^A tropical pineapple^|^15^|^200^|^Scenario_D
+5^|^Cherry^|^A bunch of red cherries^|^18^|^203^|^Scenario_E
+6^|^Mango^|^A ripe yellow mango^|^20^|^204^|^Scenario_F
+7^|^Blueberry^|^A small blueberry^|^8^|^205^|^Scenario_G
+8^|^Raspberry^|^A rich and tart raspberry^|^8^|^206^|^Scenario_H
+9^|^Blackberry^|^A sweet blackberry^|^9^|^207^|^Scenario_I
+10^|^Watermelon^|^A large summer watermelon^|^25^|^208^|^Scenario_J

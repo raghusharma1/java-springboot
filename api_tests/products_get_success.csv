@@ -1,0 +1,11 @@
+name^|^statusCode^|^scenario
+John^|^200^|^Login
+Mary^|^404^|^Logout
+Paul^|^200^|^Search
+Sue^|^500^|^Update_Profile
+Alex^|^200^|^Add_to_Cart
+Emma^|^400^|^Remove_from_Cart
+Max^|^200^|^Checkout
+Lara^|^404^|^Forgot_Password
+Peter^|^500^|^Change_Password
+Lucy^|^200^|^Leave_Review

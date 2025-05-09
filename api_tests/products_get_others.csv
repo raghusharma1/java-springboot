@@ -1,0 +1,11 @@
+invalidProductId^|^statusCode^|^scenario
+12345^|^200^|^Login Page
+-98766^|^404^|^User Profile
+null^|^500^|^Dashboard
+0^|^200^|^Logout Page
+ABC056^|^201^|^Product Page
+1001/2^|^401^|^Services Page
+56489-'789'^|^304^|^Contact Page
+7865null^|^202^|^Cart Page
+s'g'123^|^403^|^About Us Page
+nullnull^|^200^|^Home Page
