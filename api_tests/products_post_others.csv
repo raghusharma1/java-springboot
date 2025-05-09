@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^Apple^|^Description of the product^|^20^|^200^|^Scenario1
+2^|^Banana^|^Another description of the product^|^15^|^200^|^Scenario2
+3^|^Cherry^|^Another new description^|^10^|^400^|^Scenario3
+4^|^Orange^|^Yet another description^|^25^|^200^|^Scenario4
+5^|^Avocado^|^Short description^|^30^|^500^|^Scenario5
+6^|^Fruit Error^|^Error message^|^Not a number^|^200^|^Scenario Error
+7^|^Grapes^|^Fresh Grapes^|^12^|^200^|^Scenario7
+8^|^Kiwi^|^^|^15^|^Invalid Code^|^Invalid Scenario
+9^|^Mango^|^null^|^20^|^200^|^Scenario9
+10^|^Melon^|^Something melon^|^23^|^^|^Scenario10

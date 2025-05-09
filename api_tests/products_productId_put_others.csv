@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^productId
+10^|^apple^|^description of the product^|^20^|^1
+11^|^banana^|^another product's description^|^30^|^2
+12^|^carrot^|^a vegetable description^|^40^|^3
+13^|^durian^|^an exotic fruit^|^50^|^4
+14^|^eggplant^|^a purple vegetable^|^60^|^5
+15^|^fig^|^a seasonal fruit^|^70^|^6
+16^|^grape^|^a vine fruit^|^80^|^7
+17^|^honeydew^|^a sweet fruit^|^90^|^8
+18^|^ice-cream^|^not a fruit^|^100^|^9
+19^|^juice^|^also not a fruit^|^110^|^10
