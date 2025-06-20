@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^apple^|^description of the product^|^20^|^200^|^success
+2^|^banana^|^best banana in the store^|^10^|^200^|^success
+3^|^peach^|^juiciest peach available^|^15^|^200^|^success
+4^|^grape^|^sweetest grapes here^|^17^|^200^|^success
+5^|^cherry^|^cherry like no other^|^18^|^200^|^success
+6^|^pineapple^|^tropical paradise in a fruit^|^25^|^200^|^success
+7^|^kiwi^|^kiwi full of vitamins^|^12^|^200^|^success
+8^|^lime^|^sour and essential^|^14^|^200^|^success
+9^|^lemon^|^refreshing and sour^|^13^|^200^|^success
+10^|^mango^|^king of fruits^|^27^|^200^|^success
