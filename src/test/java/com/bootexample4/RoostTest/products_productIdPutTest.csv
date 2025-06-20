@@ -1,0 +1,11 @@
+productId^|^RequestBody^|^statusCode
+1^|^{"id":101,"name":"ProductA","description":"High-quality widget","price":50}^|^200
+2^|^{"id":102,"name":"ProductB","description":"Durable and affordable","price":75}^|^404
+3^|^{"id":103,"name":"ProductC","description":"Compact and reliable","price":35}^|^200
+4^|^{"id":104,"name":"ProductD","description":"Top-notch performance","price":120}^|^404
+5^|^{"id":105,"name":"ProductE","description":"User-friendly gadget","price":60}^|^200
+6^|^{"id":106,"name":"ProductF","description":"Efficient energy saver","price":90}^|^200
+7^|^{"id":107,"name":"ProductG","description":"Stylish and modern","price":45}^|^404
+8^|^{"id":108,"name":"ProductH","description":"Robust and versatile","price":80}^|^404
+9^|^{"id":109,"name":"ProductI","description":"Lightweight design","price":33}^|^200
+10^|^{"id":110,"name":"ProductJ","description":"Exceptional durability","price":150}^|^200
