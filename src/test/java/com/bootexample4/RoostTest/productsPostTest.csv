@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id":1,"name":"Widget Alpha","description":"High-quality widget","price":100}^|^200
+{"id":2,"name":"Gadget Beta","description":"Multipurpose gadget","price":150}^|^200
+{"id":3,"name":"Tool Gamma","description":"Durable tool","price":75}^|^405
+{"id":4,"name":"Device Delta","description":"Advanced device technology","price":200}^|^200
+{"id":5,"name":"Item Epsilon","description":"Versatile item","price":50}^|^405
+{"id":6,"name":"Material Zeta","description":"Premium material","price":180}^|^200
+{"id":7,"name":"Accessory Eta","description":"Stylish accessory","price":95}^|^200
+{"id":8,"name":"Component Theta","description":"Reliable component","price":120}^|^405
+{"id":9,"name":"Element Iota","description":"Essential element","price":130}^|^200
+{"id":10,"name":"System Kappa","description":"Highly efficient system","price":300}^|^200
