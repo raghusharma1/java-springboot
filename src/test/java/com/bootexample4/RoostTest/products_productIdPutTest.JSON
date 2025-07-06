@@ -1,0 +1,115 @@
+[
+  {
+    "testCaseId": 1,
+    "description": "Verify login functionality with valid credentials",
+    "input": {
+      "username": "user123",
+      "password": "password123"
+    },
+    "expectedOutput": "Login successful",
+    "actualOutput": "",
+    "status": "Pending"
+  },
+  {
+    "testCaseId": 2,
+    "description": "Verify error message for invalid login credentials",
+    "input": {
+      "username": "user123",
+      "password": "wrongpassword"
+    },
+    "expectedOutput": "Invalid username or password",
+    "actualOutput": "",
+    "status": "Pending"
+  },
+  {
+    "testCaseId": 3,
+    "description": "Ensure password resets functionality works correctly",
+    "input": {
+      "email": "user123@example.com",
+      "requestType": "Password reset"
+    },
+    "expectedOutput": "Password reset link sent to email",
+    "actualOutput": "",
+    "status": "Pending"
+  },
+  {
+    "testCaseId": 4,
+    "description": "Test registration process with valid details",
+    "input": {
+      "username": "new_user",
+      "email": "new_user@example.com",
+      "password": "new_password123"
+    },
+    "expectedOutput": "Registration successful",
+    "actualOutput": "",
+    "status": "Pending"
+  },
+  {
+    "testCaseId": 5,
+    "description": "Check registration fails for already existing email",
+    "input": {
+      "username": "existing_user",
+      "email": "user123@example.com",
+      "password": "new_password123"
+    },
+    "expectedOutput": "Email already in use",
+    "actualOutput": "",
+    "status": "Pending"
+  },
+  {
+    "testCaseId": 6,
+    "description": "Validate logout functionality",
+    "input": {
+      "sessionToken": "validSessionToken123"
+    },
+    "expectedOutput": "Logout successful",
+    "actualOutput": "",
+    "status": "Pending"
+  },
+  {
+    "testCaseId": 7,
+    "description": "Ensure session timeout after inactivity",
+    "input": {
+      "sessionStartTime": "2023-10-01T10:00:00Z",
+      "lastActivityTime": "2023-10-01T10:30:00Z",
+      "timeoutDuration": "15 minutes"
+    },
+    "expectedOutput": "Session timed out",
+    "actualOutput": "",
+    "status": "Pending"
+  },
+  {
+    "testCaseId": 8,
+    "description": "Validate search functionality with existing result",
+    "input": {
+      "query": "test item"
+    },
+    "expectedOutput": "Results found for 'test item'",
+    "actualOutput": "",
+    "status": "Pending"
+  },
+  {
+    "testCaseId": 9,
+    "description": "Check search functionality returns no result for unknown query",
+    "input": {
+      "query": "unknown item"
+    },
+    "expectedOutput": "No results found",
+    "actualOutput": "",
+    "status": "Pending"
+  },
+  {
+    "testCaseId": 10,
+    "description": "Validate profile update feature with valid details",
+    "input": {
+      "userId": 123,
+      "profileDetails": {
+        "name": "Updated User",
+        "email": "updated_user@example.com"
+      }
+    },
+    "expectedOutput": "Profile updated successfully",
+    "actualOutput": "",
+    "status": "Pending"
+  }
+]
