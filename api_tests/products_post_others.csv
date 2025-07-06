@@ -1,0 +1,11 @@
+id^|^name^|^description^|^price^|^statusCode^|^scenario
+1^|^pear^|^A delicious green fruit^|^15^|^200^|^groceryScen
+2^|^orange^|^A juicy citrus fruit^|^10^|^400^|^groceryScen
+3^|^apple^|^A tasty and popular fruit^|^12^|^500^|^groceryScen
+4^|^mango^|^A popular summer fruit^|^20^|^300^|^groceryScen
+5^|^banana^|^Best fruit to eat on the go^|^8^|^404^|^groceryScen
+6^|^grape^|^A small round fruit^|^5^|^250^|^groceryScen
+7^|^pineapple^|^Tart fruit with thick skin^|^25^|^100^|^groceryScen
+8^|^papaya^|^A tropical fruit rich in dietary fiber^|^17^|^400^|^groceryScen
+9^|^kiwi^|^Small fruit with fresh taste and full of vitamins^|^9^|^200^|^groceryScen
+10^|^watermelon^|^Juicy and sweet fruit^|^30^|^500^|^groceryScen
