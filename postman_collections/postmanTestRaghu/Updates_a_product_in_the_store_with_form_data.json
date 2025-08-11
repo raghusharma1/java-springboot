@@ -1,0 +1,47 @@
+[
+  {
+    "productId": "P123456",
+    "name_string": "apple",
+    "id_long": 10,
+    "description_string": "description of the product",
+    "price_long": 20,
+    "statusCode": 200,
+    "scenario": "Updated Product"
+  },
+  {
+    "productId": "P789012",
+    "name_string": "orange",
+    "id_long": 25,
+    "description_string": "fresh and juicy orange",
+    "price_long": 30,
+    "statusCode": 200,
+    "scenario": "Updated Product"
+  },
+  {
+    "productId": "INVALID_ID",
+    "name_string": "",
+    "id_long": -1,
+    "description_string": "invalid description",
+    "price_long": 0,
+    "statusCode": 404,
+    "scenario": "Not Found"
+  },
+  {
+    "productId": "000000",
+    "name_string": "banana",
+    "id_long": 999999999,
+    "description_string": "sweet banana",
+    "price_long": 15,
+    "statusCode": 200,
+    "scenario": "Updated Product"
+  },
+  {
+    "productId": "INVALID_PRODUCT",
+    "name_string": "unknown_product",
+    "id_long": 0,
+    "description_string": "",
+    "price_long": -50,
+    "statusCode": 404,
+    "scenario": "Not Found"
+  }
+]
